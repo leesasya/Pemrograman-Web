@@ -15,7 +15,7 @@ A responsive personal portfolio built with semantic HTML and modern CSS. It pres
 
 ## Run / Preview
 
-The project is deployed at https://pweb-lisa.vercel.app/.
+The project is deployed at https://portolisa.vercel.app/.
 
 To run it locally, open `index.html` directly in a browser. No build step or package installation is required.
 
