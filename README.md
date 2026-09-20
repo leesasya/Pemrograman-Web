@@ -19,6 +19,7 @@ NRP. 5025251045</p>
 | No | Task Name | Access Link |
 |:---:|:---|:---:|
 | 01 | **1st Assignment: CV & Portofolio Website** | [View Directory](https://github.com/leesasya/Pemrograman-Web/tree/main/Tugas-1) |
+| 02 | **2st Assignment: School Website** | [View Directory](https://github.com/leesasya/Pemrograman-Web/tree/main/Tugas-2) |
 
 <br>
 
