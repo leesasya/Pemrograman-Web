@@ -1,53 +1,432 @@
 <!doctype html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Kontak, lokasi, formulir pesan, dan media sosial resmi SMAIT Al Kahfi.">
-  <meta name="theme-color" content="#1d503b">
-  <title>Kontak | SMAIT Al Kahfi</title>
-  <link rel="icon" href="assets/images/logo.jpg">
-  <link rel="preload" href="assets/fonts/outfit.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="assets/style.css">
-  <script src="assets/data/content.js" defer></script>
-  <script src="assets/app.js" defer></script>
-</head>
-<body data-page="kontak">
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Kontak, lokasi, formulir pesan, dan media sosial resmi SMAIT Al Kahfi."
+    />
+    <meta name="theme-color" content="#1d503b" />
+    <title>Kontak | SMAIT Al Kahfi</title>
+    <link rel="icon" href="assets/images/logo.jpg" />
+    <link
+      rel="preload"
+      href="assets/fonts/outfit.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="assets/data/content.js" defer></script>
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body data-page="kontak">
     <a class="skip-link" href="#content">Lewati ke konten</a>
     <header class="site-header" id="top">
       <div class="container header-row">
-        <a class="school-brand" href="index.html" aria-label="SMAIT Al Kahfi, beranda">
-          <img src="assets/images/logo.jpg" alt="Logo SMAIT Al Kahfi" fetchpriority="high" decoding="async">
-          <span><strong>SMAIT AL KAHFI</strong><small>Shalih · Muslih · Qudwah</small></span>
+        <a
+          class="school-brand"
+          href="index.html"
+          aria-label="SMAIT Al Kahfi, beranda"
+        >
+          <img
+            src="assets/images/logo.jpg"
+            alt="Logo SMAIT Al Kahfi"
+            fetchpriority="high"
+            decoding="async"
+          />
+          <span
+            ><strong>SMAIT AL KAHFI</strong
+            ><small>Shalih · Muslih · Qudwah</small></span
+          >
         </a>
-        <nav class="desktop-nav" aria-label="Navigasi utama"><a href="index.html">Beranda</a><a href="kurikulum.html">Jurusan</a><a href="kesiswaan.html">Kehidupan Santri</a><a href="alumni.html">Alumni</a><a href="kontak.html" aria-current="page">Kontak</a></nav>
-        <a class="header-action" href="https://psbpesantrenalkahfi.com/" target="_blank" rel="noopener noreferrer">Pendaftaran<img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></a>
-        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Buka navigasi"><img class="icon" src="assets/icons/list.svg" alt="" aria-hidden="true" width="20" height="20"></button>
+        <nav class="desktop-nav" aria-label="Navigasi utama">
+          <a href="index.html">Beranda</a><a href="kurikulum.html">Jurusan</a
+          ><a href="kesiswaan.html">Kehidupan Santri</a
+          ><a href="alumni.html">Alumni</a
+          ><a href="kontak.html" aria-current="page">Kontak</a>
+        </nav>
+        <a
+          class="header-action"
+          href="https://psbpesantrenalkahfi.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Pendaftaran<img
+            class="icon"
+            src="assets/icons/arrow-up-right.svg"
+            alt=""
+            aria-hidden="true"
+            width="20"
+            height="20"
+        /></a>
+        <button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+          aria-label="Buka navigasi"
+        >
+          <img
+            class="icon"
+            src="assets/icons/list.svg"
+            alt=""
+            aria-hidden="true"
+            width="20"
+            height="20"
+          />
+        </button>
       </div>
-      <nav class="mobile-nav" id="mobile-nav" aria-label="Navigasi seluler" hidden><a href="index.html">Beranda</a><a href="kurikulum.html">Jurusan</a><a href="kesiswaan.html">Kehidupan Santri</a><a href="alumni.html">Alumni</a><a href="kontak.html" aria-current="page">Kontak</a><a class="button" href="https://psbpesantrenalkahfi.com/" target="_blank" rel="noopener noreferrer">Pendaftaran<img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></a></nav>
+      <nav
+        class="mobile-nav"
+        id="mobile-nav"
+        aria-label="Navigasi seluler"
+        hidden
+      >
+        <a href="index.html">Beranda</a><a href="kurikulum.html">Jurusan</a
+        ><a href="kesiswaan.html">Kehidupan Santri</a
+        ><a href="alumni.html">Alumni</a
+        ><a href="kontak.html" aria-current="page">Kontak</a
+        ><a
+          class="button"
+          href="https://psbpesantrenalkahfi.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Pendaftaran<img
+            class="icon"
+            src="assets/icons/arrow-up-right.svg"
+            alt=""
+            aria-hidden="true"
+            width="20"
+            height="20"
+        /></a>
+      </nav>
     </header>
-  <main id="content">
-  <!-- SECTION: HERO KONTAK -->
-  <section class="page-hero"><div class="container"><p class="section-label">Kontak</p><h1>Hubungi SMAIT Al Kahfi</h1><p>Informasi sekolah, kebutuhan santri, pendaftaran, dan kerja sama.</p><nav class="anchor-nav" aria-label="Bagian halaman"><a href="#informasi-kontak">Informasi kontak</a><a href="#form-kontak">Form kontak</a><a href="#media-sosial">Media sosial</a></nav></div></section>
-  <!-- SECTION: INFORMASI KONTAK -->
-  <section class="section" id="informasi-kontak"><div class="container contact-layout"><div><div class="section-heading"><p class="section-label">Informasi kontak</p><h2>Alamat dan layanan sekolah</h2></div><address class="contact-list"><div><img class="icon" src="assets/icons/map-pin.svg" alt="" aria-hidden="true" width="20" height="20"><span><strong>Alamat</strong>Jl. SPN PMJ, Desa Srogol, Kecamatan Cigombong, Bogor, Jawa Barat 16110</span></div><div><img class="icon" src="assets/icons/phone.svg" alt="" aria-hidden="true" width="20" height="20"><span><strong>Telepon</strong><a href="tel:+622518224388">(0251) 8224388</a></span></div><div><img class="icon" src="assets/icons/envelope-simple.svg" alt="" aria-hidden="true" width="20" height="20"><span><strong>Email</strong><a href="mailto:smaitalkahfi@gmail.com">smaitalkahfi@gmail.com</a></span></div><div><img class="icon" src="assets/icons/clock.svg" alt="" aria-hidden="true" width="20" height="20"><span><strong>Jam layanan</strong>Senin–Sabtu, 08.00–15.00 WIB</span></div></address></div><iframe class="map" title="Lokasi SMAIT Al Kahfi" src="https://maps.google.com/maps?q=SMAIT%20Al%20Kahfi%20Cigombong%20Bogor&t=m&z=14&output=embed&iwloc=near" loading="lazy"></iframe></div></section>
-  <!-- SECTION: FORM KONTAK -->
-  <section class="section soft-section" id="form-kontak"><div class="container form-layout"><div class="section-heading"><p class="section-label">Form kontak</p><h2>Kirim pesan</h2><p>Lengkapi nama, email, dan pesan. Aplikasi email akan dibuka setelah formulir diperiksa.</p></div><form id="contact-form"><label>Nama<input type="text" name="name" required autocomplete="name"></label><label>Email<input type="email" name="email" required autocomplete="email"></label><label class="full">Pesan<textarea name="message" rows="7" minlength="10" required placeholder="Tuliskan pertanyaan atau kebutuhan Anda."></textarea></label><button class="button" type="submit">Kirim pesan<img class="icon" src="assets/icons/arrow-right.svg" alt="" aria-hidden="true" width="20" height="20"></button><p class="form-status" role="status"></p></form></div></section>
-  <!-- SECTION: MEDIA SOSIAL -->
-  <section class="section" id="media-sosial"><div class="container"><div class="section-heading"><p class="section-label">Media sosial</p><h2>Kanal resmi sekolah</h2><p>Ikuti informasi dan kegiatan SMAIT Al Kahfi melalui Instagram dan YouTube.</p></div><div class="social-links"><a href="https://www.instagram.com/smaitalkahfiofficial/" target="_blank" rel="noopener noreferrer"><span>Instagram</span><strong>@smaitalkahfiofficial</strong><img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></a><a href="https://www.youtube.com/c/SMAITALKAHFI" target="_blank" rel="noopener noreferrer"><span>YouTube</span><strong>SMAIT AL KAHFI</strong><img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></a></div><div class="video-list"><a href="https://www.youtube.com/watch?v=LdoAVdadgSE" target="_blank" rel="noopener noreferrer"><div><img src="assets/images/video-LdoAVdadgSE.jpg" alt="Bio-Drain Block : Green Paving Innovation | IID EXHIBITION 2026" loading="lazy" decoding="async"></div><h3>Bio-Drain Block : Green Paving Innovation | IID EXHIBITION 2026</h3><span>Tonton di YouTube <img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></span></a><a href="https://www.youtube.com/watch?v=rieZKpq6Irw" target="_blank" rel="noopener noreferrer"><div><img src="assets/images/video-rieZKpq6Irw.jpg" alt="OleoNest: Coffee Waste Bio-Sponge Filter Cartridge | IID Exhibition 2026" loading="lazy" decoding="async"></div><h3>OleoNest: Coffee Waste Bio-Sponge Filter Cartridge | IID Exhibition 2026</h3><span>Tonton di YouTube <img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></span></a><a href="https://www.youtube.com/watch?v=A_j8WuWs2OY" target="_blank" rel="noopener noreferrer"><div><img src="assets/images/video-A_j8WuWs2OY.jpg" alt="FRESHSENSE BIOLABEL: SMART SEAFOOD FRESHNESS INDICATOR | IID COMPETITION 2026" loading="lazy" decoding="async"></div><h3>FRESHSENSE BIOLABEL: SMART SEAFOOD FRESHNESS INDICATOR | IID COMPETITION 2026</h3><span>Tonton di YouTube <img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></span></a></div></div></section>
-  <!-- SECTION: PENDAFTARAN -->
-  <section class="admission-section"><div class="container admission-layout"><div><p class="section-label">Informasi pendaftaran</p><h2>Penerimaan santri baru</h2><p>Gunakan layanan resmi untuk informasi persyaratan dan proses pendaftaran.</p></div><a class="button" href="https://psbpesantrenalkahfi.com/" target="_blank" rel="noopener noreferrer">Buka halaman pendaftaran<img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></a></div></section></main>
-  
+    <main id="content">
+      <!-- SECTION: HERO KONTAK -->
+      <section class="page-hero">
+        <div class="container">
+          <p class="section-label">Kontak</p>
+          <h1>Hubungi SMAIT Al Kahfi</h1>
+          <p>
+            Informasi sekolah, kebutuhan santri, pendaftaran, dan kerja sama.
+          </p>
+          <nav class="anchor-nav" aria-label="Bagian halaman">
+            <a href="#informasi-kontak">Informasi kontak</a
+            ><a href="#form-kontak">Form kontak</a
+            ><a href="#media-sosial">Media sosial</a>
+          </nav>
+        </div>
+      </section>
+      <!-- SECTION: INFORMASI KONTAK -->
+      <section class="section" id="informasi-kontak">
+        <div class="container contact-layout">
+          <div>
+            <div class="section-heading">
+              <p class="section-label">Informasi kontak</p>
+              <h2>Alamat dan layanan sekolah</h2>
+            </div>
+            <address class="contact-list">
+              <div>
+                <img
+                  class="icon"
+                  src="assets/icons/map-pin.svg"
+                  alt=""
+                  aria-hidden="true"
+                  width="20"
+                  height="20"
+                /><span
+                  ><strong>Alamat</strong>Jl. SPN PMJ, Desa Srogol, Kecamatan
+                  Cigombong, Bogor, Jawa Barat 16110</span
+                >
+              </div>
+              <div>
+                <img
+                  class="icon"
+                  src="assets/icons/phone.svg"
+                  alt=""
+                  aria-hidden="true"
+                  width="20"
+                  height="20"
+                /><span
+                  ><strong>Telepon</strong
+                  ><a href="tel:+622518224388">(0251) 8224388</a></span
+                >
+              </div>
+              <div>
+                <img
+                  class="icon"
+                  src="assets/icons/envelope-simple.svg"
+                  alt=""
+                  aria-hidden="true"
+                  width="20"
+                  height="20"
+                /><span
+                  ><strong>Email</strong
+                  ><a href="mailto:smaitalkahfi@gmail.com"
+                    >smaitalkahfi@gmail.com</a
+                  ></span
+                >
+              </div>
+              <div>
+                <img
+                  class="icon"
+                  src="assets/icons/clock.svg"
+                  alt=""
+                  aria-hidden="true"
+                  width="20"
+                  height="20"
+                /><span
+                  ><strong>Jam layanan</strong>Senin–Sabtu, 08.00–15.00
+                  WIB</span
+                >
+              </div>
+            </address>
+          </div>
+          <iframe
+            class="map"
+            title="Lokasi SMAIT Al Kahfi"
+            src="https://maps.google.com/maps?q=SMAIT%20Al%20Kahfi%20Cigombong%20Bogor&t=m&z=14&output=embed&iwloc=near"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+      <!-- SECTION: FORM KONTAK -->
+      <section class="section soft-section" id="form-kontak">
+        <div class="container form-layout">
+          <div class="section-heading">
+            <p class="section-label">Form kontak</p>
+            <h2>Kirim pesan</h2>
+            <p>
+              Lengkapi nama, email, dan pesan. Aplikasi email akan dibuka
+              setelah formulir diperiksa.
+            </p>
+          </div>
+          <form id="contact-form">
+            <label
+              >Nama<input
+                type="text"
+                name="name"
+                required
+                autocomplete="name" /></label
+            ><label
+              >Email<input
+                type="email"
+                name="email"
+                required
+                autocomplete="email" /></label
+            ><label class="full"
+              >Pesan<textarea
+                name="message"
+                rows="7"
+                minlength="10"
+                required
+                placeholder="Tuliskan pertanyaan atau kebutuhan Anda."
+              ></textarea></label
+            ><button class="button" type="submit">
+              Kirim pesan<img
+                class="icon"
+                src="assets/icons/arrow-right.svg"
+                alt=""
+                aria-hidden="true"
+                width="20"
+                height="20"
+              />
+            </button>
+            <p class="form-status" role="status"></p>
+          </form>
+        </div>
+      </section>
+      <!-- SECTION: MEDIA SOSIAL -->
+      <section class="section" id="media-sosial">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Media sosial</p>
+            <h2>Kanal resmi sekolah</h2>
+            <p>
+              Ikuti informasi dan kegiatan SMAIT Al Kahfi melalui Instagram dan
+              YouTube.
+            </p>
+          </div>
+          <div class="social-links">
+            <a
+              href="https://www.instagram.com/smaitalkahfiofficial/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span>Instagram</span><strong>@smaitalkahfiofficial</strong
+              ><img
+                class="icon"
+                src="assets/icons/arrow-up-right.svg"
+                alt=""
+                aria-hidden="true"
+                width="20"
+                height="20" /></a
+            ><a
+              href="https://www.youtube.com/c/SMAITALKAHFI"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span>YouTube</span><strong>SMAIT AL KAHFI</strong
+              ><img
+                class="icon"
+                src="assets/icons/arrow-up-right.svg"
+                alt=""
+                aria-hidden="true"
+                width="20"
+                height="20"
+            /></a>
+          </div>
+          <div class="video-list">
+            <a
+              href="https://www.youtube.com/watch?v=LdoAVdadgSE"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><div>
+                <img
+                  src="assets/images/video-LdoAVdadgSE.jpg"
+                  alt="Bio-Drain Block : Green Paving Innovation | IID EXHIBITION 2026"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <h3>
+                Bio-Drain Block : Green Paving Innovation | IID EXHIBITION 2026
+              </h3>
+              <span
+                >Tonton di YouTube
+                <img
+                  class="icon"
+                  src="assets/icons/arrow-up-right.svg"
+                  alt=""
+                  aria-hidden="true"
+                  width="20"
+                  height="20" /></span></a
+            ><a
+              href="https://www.youtube.com/watch?v=rieZKpq6Irw"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><div>
+                <img
+                  src="assets/images/video-rieZKpq6Irw.jpg"
+                  alt="OleoNest: Coffee Waste Bio-Sponge Filter Cartridge | IID Exhibition 2026"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <h3>
+                OleoNest: Coffee Waste Bio-Sponge Filter Cartridge | IID
+                Exhibition 2026
+              </h3>
+              <span
+                >Tonton di YouTube
+                <img
+                  class="icon"
+                  src="assets/icons/arrow-up-right.svg"
+                  alt=""
+                  aria-hidden="true"
+                  width="20"
+                  height="20" /></span></a
+            ><a
+              href="https://www.youtube.com/watch?v=A_j8WuWs2OY"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><div>
+                <img
+                  src="assets/images/video-A_j8WuWs2OY.jpg"
+                  alt="FRESHSENSE BIOLABEL: SMART SEAFOOD FRESHNESS INDICATOR | IID COMPETITION 2026"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <h3>
+                FRESHSENSE BIOLABEL: SMART SEAFOOD FRESHNESS INDICATOR | IID
+                COMPETITION 2026
+              </h3>
+              <span
+                >Tonton di YouTube
+                <img
+                  class="icon"
+                  src="assets/icons/arrow-up-right.svg"
+                  alt=""
+                  aria-hidden="true"
+                  width="20"
+                  height="20" /></span
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION: PENDAFTARAN -->
+      <section class="admission-section">
+        <div class="container admission-layout">
+          <div>
+            <p class="section-label">Informasi pendaftaran</p>
+            <h2>Penerimaan santri baru</h2>
+            <p>
+              Gunakan layanan resmi untuk informasi persyaratan dan proses
+              pendaftaran.
+            </p>
+          </div>
+          <a
+            class="button"
+            href="https://psbpesantrenalkahfi.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Buka halaman pendaftaran<img
+              class="icon"
+              src="assets/icons/arrow-up-right.svg"
+              alt=""
+              aria-hidden="true"
+              width="20"
+              height="20"
+          /></a>
+        </div>
+      </section>
+    </main>
+
     <!-- SECTION: FOOTER -->
     <footer class="site-footer">
       <div class="container footer-row">
-        <div><strong>SMAIT AL KAHFI</strong><p>Jl. SPN PMJ, Desa Srogol, Cigombong, Bogor</p></div>
-        <nav aria-label="Navigasi footer"><a href="index.html">Beranda</a><a href="kurikulum.html">Jurusan</a><a href="kontak.html">Kontak</a></nav>
-        <div class="footer-contact"><a href="tel:+622518224388">(0251) 8224388</a><a href="mailto:smaitalkahfi@gmail.com">smaitalkahfi@gmail.com</a></div>
+        <div>
+          <strong>SMAIT AL KAHFI</strong>
+          <p>Jl. SPN PMJ, Desa Srogol, Cigombong, Bogor</p>
+        </div>
+        <nav aria-label="Navigasi footer">
+          <a href="index.html">Beranda</a><a href="kurikulum.html">Jurusan</a
+          ><a href="kontak.html">Kontak</a>
+        </nav>
+        <div class="footer-contact">
+          <a href="tel:+622518224388">(0251) 8224388</a
+          ><a href="mailto:smaitalkahfi@gmail.com">smaitalkahfi@gmail.com</a>
+        </div>
       </div>
-      <div class="container copyright"><span>Copyright © 2026 SMAIT Al Kahfi</span><a href="#top">Kembali ke atas <img class="icon" src="assets/icons/arrow-up.svg" alt="" aria-hidden="true" width="20" height="20"></a></div>
+      <div class="container copyright">
+        <span>Copyright © 2026 SMAIT Al Kahfi</span
+        ><a href="#top"
+          >Kembali ke atas
+          <img
+            class="icon"
+            src="assets/icons/arrow-up.svg"
+            alt=""
+            aria-hidden="true"
+            width="20"
+            height="20"
+        /></a>
+      </div>
     </footer>
-  <dialog id="site-dialog" aria-labelledby="dialog-title"><div class="dialog-head"><h2 id="dialog-title"></h2><button type="button" class="dialog-close" aria-label="Tutup"><img class="icon" src="assets/icons/x.svg" alt="" aria-hidden="true" width="20" height="20"></button></div><div class="dialog-body"></div></dialog>
-</body>
+    <dialog id="site-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-head">
+        <h2 id="dialog-title"></h2>
+        <button type="button" class="dialog-close" aria-label="Tutup">
+          <img
+            class="icon"
+            src="assets/icons/x.svg"
+            alt=""
+            aria-hidden="true"
+            width="20"
+            height="20"
+          />
+        </button>
+      </div>
+      <div class="dialog-body"></div>
+    </dialog>
+  </body>
 </html>

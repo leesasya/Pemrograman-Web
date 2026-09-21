@@ -1,53 +1,620 @@
 <!doctype html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Program pembinaan, panduan seragam, ekstrakurikuler, dan OSPETA SMAIT Al Kahfi.">
-  <meta name="theme-color" content="#1d503b">
-  <title>Kehidupan santri | SMAIT Al Kahfi</title>
-  <link rel="icon" href="assets/images/logo.jpg">
-  <link rel="preload" href="assets/fonts/outfit.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="assets/style.css">
-  <script src="assets/data/content.js" defer></script>
-  <script src="assets/app.js" defer></script>
-</head>
-<body data-page="kesiswaan">
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Program pembinaan, panduan seragam, ekstrakurikuler, dan OSPETA SMAIT Al Kahfi."
+    />
+    <meta name="theme-color" content="#1d503b" />
+    <title>Kehidupan santri | SMAIT Al Kahfi</title>
+    <link rel="icon" href="assets/images/logo.jpg" />
+    <link
+      rel="preload"
+      href="assets/fonts/outfit.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="assets/data/content.js" defer></script>
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body data-page="kesiswaan">
     <a class="skip-link" href="#content">Lewati ke konten</a>
     <header class="site-header" id="top">
       <div class="container header-row">
-        <a class="school-brand" href="index.html" aria-label="SMAIT Al Kahfi, beranda">
-          <img src="assets/images/logo.jpg" alt="Logo SMAIT Al Kahfi" fetchpriority="high" decoding="async">
-          <span><strong>SMAIT AL KAHFI</strong><small>Shalih · Muslih · Qudwah</small></span>
+        <a
+          class="school-brand"
+          href="index.html"
+          aria-label="SMAIT Al Kahfi, beranda"
+        >
+          <img
+            src="assets/images/logo.jpg"
+            alt="Logo SMAIT Al Kahfi"
+            fetchpriority="high"
+            decoding="async"
+          />
+          <span
+            ><strong>SMAIT AL KAHFI</strong
+            ><small>Shalih · Muslih · Qudwah</small></span
+          >
         </a>
-        <nav class="desktop-nav" aria-label="Navigasi utama"><a href="index.html">Beranda</a><a href="kurikulum.html">Jurusan</a><a href="kesiswaan.html" aria-current="page">Kehidupan Santri</a><a href="alumni.html">Alumni</a><a href="kontak.html">Kontak</a></nav>
-        <a class="header-action" href="https://psbpesantrenalkahfi.com/" target="_blank" rel="noopener noreferrer">Pendaftaran<img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></a>
-        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Buka navigasi"><img class="icon" src="assets/icons/list.svg" alt="" aria-hidden="true" width="20" height="20"></button>
+        <nav class="desktop-nav" aria-label="Navigasi utama">
+          <a href="index.html">Beranda</a><a href="kurikulum.html">Jurusan</a
+          ><a href="kesiswaan.html" aria-current="page">Kehidupan Santri</a
+          ><a href="alumni.html">Alumni</a><a href="kontak.html">Kontak</a>
+        </nav>
+        <a
+          class="header-action"
+          href="https://psbpesantrenalkahfi.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Pendaftaran<img
+            class="icon"
+            src="assets/icons/arrow-up-right.svg"
+            alt=""
+            aria-hidden="true"
+            width="20"
+            height="20"
+        /></a>
+        <button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+          aria-label="Buka navigasi"
+        >
+          <img
+            class="icon"
+            src="assets/icons/list.svg"
+            alt=""
+            aria-hidden="true"
+            width="20"
+            height="20"
+          />
+        </button>
       </div>
-      <nav class="mobile-nav" id="mobile-nav" aria-label="Navigasi seluler" hidden><a href="index.html">Beranda</a><a href="kurikulum.html">Jurusan</a><a href="kesiswaan.html" aria-current="page">Kehidupan Santri</a><a href="alumni.html">Alumni</a><a href="kontak.html">Kontak</a><a class="button" href="https://psbpesantrenalkahfi.com/" target="_blank" rel="noopener noreferrer">Pendaftaran<img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></a></nav>
+      <nav
+        class="mobile-nav"
+        id="mobile-nav"
+        aria-label="Navigasi seluler"
+        hidden
+      >
+        <a href="index.html">Beranda</a><a href="kurikulum.html">Jurusan</a
+        ><a href="kesiswaan.html" aria-current="page">Kehidupan Santri</a
+        ><a href="alumni.html">Alumni</a><a href="kontak.html">Kontak</a
+        ><a
+          class="button"
+          href="https://psbpesantrenalkahfi.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Pendaftaran<img
+            class="icon"
+            src="assets/icons/arrow-up-right.svg"
+            alt=""
+            aria-hidden="true"
+            width="20"
+            height="20"
+        /></a>
+      </nav>
     </header>
-  <main id="content">
-  <!-- SECTION: HERO KESISWAAN -->
-  <section class="page-hero"><div class="container"><p class="section-label">Kehidupan santri</p><h1>Pembinaan dan kegiatan santri</h1><p>Program sekolah mendampingi karakter, minat, bakat, kesehatan, dan kepemimpinan santri.</p><nav class="anchor-nav" aria-label="Bagian halaman"><a href="#pembinaan">Pembinaan</a><a href="#seragam">Seragam</a><a href="#ekstrakurikuler">Ekstrakurikuler</a><a href="#ospeta">OSPETA</a></nav></div></section>
-  <!-- SECTION: PEMBINAAN -->
-  <section class="section" id="pembinaan"><div class="container"><div class="section-heading"><p class="section-label">Program kesiswaan</p><h2>Pembinaan santri</h2></div><div class="program-columns"><article><h3>Pembentukan karakter</h3><ul><li>Kedisiplinan</li><li>Gerakan Adiwiyata</li><li>Rihlah Ilmiah</li><li>Mukhoyam</li><li>Pembimbingan lomba akademik dan non-akademik</li></ul></article><article><h3>Bimbingan konseling</h3><ul><li>Konseling pribadi</li><li>Konseling gaya belajar</li><li>Konseling minat dan bakat</li><li>Psikotes</li></ul></article></div></div></section>
-  <!-- SECTION: SERAGAM -->
-  <section class="section soft-section" id="seragam"><div class="container"><div class="section-heading"><p class="section-label">Tahun ajaran 2026/2027</p><h2>Panduan seragam</h2><p>Pilih hari untuk melihat seragam Ikhwan dan Akhwat. Klik gambar untuk memperbesar.</p></div><div class="day-tabs" role="tablist" aria-label="Hari seragam"><button type="button" role="tab" aria-selected="true" aria-controls="uniform-panel-0" id="uniform-tab-0">Senin–Selasa</button><button type="button" role="tab" aria-selected="false" aria-controls="uniform-panel-1" id="uniform-tab-1">Rabu</button><button type="button" role="tab" aria-selected="false" aria-controls="uniform-panel-2" id="uniform-tab-2">Kamis</button><button type="button" role="tab" aria-selected="false" aria-controls="uniform-panel-3" id="uniform-tab-3">Jumat–Sabtu</button></div><div class="uniform-panel" role="tabpanel" id="uniform-panel-0" aria-labelledby="uniform-tab-0"><figure><button type="button" data-image="assets/images/uniform-1.webp" data-title="Seragam Senin–Selasa Ikhwan"><img src="assets/images/uniform-1.webp" alt="Seragam Ikhwan Senin–Selasa" loading="lazy" decoding="async"></button><figcaption>Ikhwan · Senin–Selasa</figcaption></figure><figure><button type="button" data-image="assets/images/uniform-2.webp" data-title="Seragam Senin–Selasa Akhwat"><img src="assets/images/uniform-2.webp" alt="Seragam Akhwat Senin–Selasa" loading="lazy" decoding="async"></button><figcaption>Akhwat · Senin–Selasa</figcaption></figure></div><div class="uniform-panel" role="tabpanel" id="uniform-panel-1" aria-labelledby="uniform-tab-1" hidden><figure><button type="button" data-image="assets/images/uniform-3.webp" data-title="Seragam Rabu Ikhwan"><img src="assets/images/uniform-3.webp" alt="Seragam Ikhwan Rabu" loading="lazy" decoding="async"></button><figcaption>Ikhwan · Rabu</figcaption></figure><figure><button type="button" data-image="assets/images/uniform-4.webp" data-title="Seragam Rabu Akhwat"><img src="assets/images/uniform-4.webp" alt="Seragam Akhwat Rabu" loading="lazy" decoding="async"></button><figcaption>Akhwat · Rabu</figcaption></figure></div><div class="uniform-panel" role="tabpanel" id="uniform-panel-2" aria-labelledby="uniform-tab-2" hidden><figure><button type="button" data-image="assets/images/uniform-5.webp" data-title="Seragam Kamis Ikhwan"><img src="assets/images/uniform-5.webp" alt="Seragam Ikhwan Kamis" loading="lazy" decoding="async"></button><figcaption>Ikhwan · Kamis</figcaption></figure><figure><button type="button" data-image="assets/images/uniform-6.webp" data-title="Seragam Kamis Akhwat"><img src="assets/images/uniform-6.webp" alt="Seragam Akhwat Kamis" loading="lazy" decoding="async"></button><figcaption>Akhwat · Kamis</figcaption></figure></div><div class="uniform-panel" role="tabpanel" id="uniform-panel-3" aria-labelledby="uniform-tab-3" hidden><figure><button type="button" data-image="assets/images/uniform-7.webp" data-title="Seragam Jumat–Sabtu Ikhwan"><img src="assets/images/uniform-7.webp" alt="Seragam Ikhwan Jumat–Sabtu" loading="lazy" decoding="async"></button><figcaption>Ikhwan · Jumat–Sabtu</figcaption></figure><figure><button type="button" data-image="assets/images/uniform-8.webp" data-title="Seragam Jumat–Sabtu Akhwat"><img src="assets/images/uniform-8.webp" alt="Seragam Akhwat Jumat–Sabtu" loading="lazy" decoding="async"></button><figcaption>Akhwat · Jumat–Sabtu</figcaption></figure></div></div></section>
-  <!-- SECTION: EKSTRAKURIKULER -->
-  <section class="section" id="ekstrakurikuler"><div class="container"><div class="section-heading"><p class="section-label">Minat dan bakat</p><h2>Ekstrakurikuler</h2></div><div class="activity-list"><button type="button" data-activity="Sekolah Kepemimpinan" data-mentor="Ust. Choirul Fajri, S.Pd" data-description="Pelatihan kepemimpinan, kerja sama, dan tanggung jawab dalam organisasi."><span>01</span><div><h3>Sekolah Kepemimpinan</h3><p>Ust. Choirul Fajri, S.Pd</p></div><img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></button><button type="button" data-activity="Teater Pijar" data-mentor="Ustz. Rahma, S.Pd" data-description="Ruang untuk mengembangkan ekspresi, kreativitas, dan kepercayaan diri melalui seni pertunjukan."><span>02</span><div><h3>Teater Pijar</h3><p>Ustz. Rahma, S.Pd</p></div><img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></button><button type="button" data-activity="School of Riset" data-mentor="Ustz. Sakinah Mawadah Siregar, S.Pd" data-description="Mengembangkan rasa ingin tahu, menyusun penelitian, dan belajar menyampaikan karya ilmiah."><span>03</span><div><h3>School of Riset</h3><p>Ustz. Sakinah Mawadah Siregar, S.Pd</p></div><img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></button><button type="button" data-activity="Multimedia Ikhwan" data-mentor="Ust. Abdan Syakuro" data-description="Mengembangkan kreativitas dalam produksi foto, video, dan konten digital."><span>04</span><div><h3>Multimedia Ikhwan</h3><p>Ust. Abdan Syakuro</p></div><img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></button><button type="button" data-activity="Palang Merah Remaja" data-mentor="Ustz. Rosi" data-description="Mengembangkan kepedulian, keterampilan pertolongan pertama, dan kerja sama."><span>05</span><div><h3>Palang Merah Remaja</h3><p>Ustz. Rosi</p></div><img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></button><button type="button" data-activity="Voli" data-mentor="Ust. Ugi" data-description="Mengembangkan keterampilan olahraga, sportivitas, dan kerja sama tim."><span>06</span><div><h3>Voli</h3><p>Ust. Ugi</p></div><img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></button><button type="button" data-activity="Entrepreneurship Ikhwan" data-mentor="Ust. Furqon" data-description="Mengenal kewirausahaan serta mengembangkan ide dan kreativitas dalam berkarya."><span>07</span><div><h3>Entrepreneurship Ikhwan</h3><p>Ust. Furqon</p></div><img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></button><button type="button" data-activity="Multimedia Akhwat" data-mentor="Ust. Fahmi Maulana" data-description="Mengembangkan kreativitas dalam produksi foto, video, dan konten digital."><span>08</span><div><h3>Multimedia Akhwat</h3><p>Ust. Fahmi Maulana</p></div><img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></button></div></div></section>
-  <!-- SECTION: OSPETA -->
-  <section class="section soft-section" id="ospeta"><div class="container"><div class="section-heading"><p class="section-label">Organisasi santri</p><h2>OSPETA 2026/2027</h2><p>Organisasi Siswa Pesantren Terpadu Al Kahfi menjadi ruang belajar memimpin, bekerja sama, dan bertanggung jawab.</p></div><div class="ospeta-grid"><article><h3>OSPETA Ikhwan</h3><p>Struktur santriwan terdiri dari ketua, wakil ketua, bendahara, dan divisi kerja.</p></article><article><h3>OSPETA Akhwat</h3><p>Struktur santriwati terdiri dari ketua, wakil ketua, bendahara, dan divisi kerja.</p></article></div><h3 class="subheading">Divisi organisasi</h3><ul class="division-list"><li>Kesekretariatan</li><li>Keuangan</li><li>Penelitian dan Pengembangan</li><li>Ruhiyah</li><li>Kedisiplinan</li><li>Bahasa</li><li>Pendidikan</li><li>Humas dan Keasramaan</li><li>Bela Negara</li><li>Olahraga</li><li>Media Sosial</li><li>Ekonomi dan Wirausaha</li><li>Kebersihan dan Kesehatan</li></ul><a class="text-action" href="https://www.instagram.com/ospeta.official/" target="_blank" rel="noopener noreferrer">Instagram OSPETA<img class="icon" src="assets/icons/arrow-up-right.svg" alt="" aria-hidden="true" width="20" height="20"></a></div></section></main>
-  
+    <main id="content">
+      <!-- SECTION: HERO KESISWAAN -->
+      <section class="page-hero">
+        <div class="container">
+          <p class="section-label">Kehidupan santri</p>
+          <h1>Pembinaan dan kegiatan santri</h1>
+          <p>
+            Program sekolah mendampingi karakter, minat, bakat, kesehatan, dan
+            kepemimpinan santri.
+          </p>
+          <nav class="anchor-nav" aria-label="Bagian halaman">
+            <a href="#pembinaan">Pembinaan</a><a href="#seragam">Seragam</a
+            ><a href="#ekstrakurikuler">Ekstrakurikuler</a
+            ><a href="#ospeta">OSPETA</a>
+          </nav>
+        </div>
+      </section>
+      <!-- SECTION: PEMBINAAN -->
+      <section class="section" id="pembinaan">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Program kesiswaan</p>
+            <h2>Pembinaan santri</h2>
+          </div>
+          <div class="program-columns">
+            <article>
+              <h3>Pembentukan karakter</h3>
+              <ul>
+                <li>Kedisiplinan</li>
+                <li>Gerakan Adiwiyata</li>
+                <li>Rihlah Ilmiah</li>
+                <li>Mukhoyam</li>
+                <li>Pembimbingan lomba akademik dan non-akademik</li>
+              </ul>
+            </article>
+            <article>
+              <h3>Bimbingan konseling</h3>
+              <ul>
+                <li>Konseling pribadi</li>
+                <li>Konseling gaya belajar</li>
+                <li>Konseling minat dan bakat</li>
+                <li>Psikotes</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION: SERAGAM -->
+      <section class="section soft-section" id="seragam">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Tahun ajaran 2026/2027</p>
+            <h2>Panduan seragam</h2>
+            <p>
+              Pilih hari untuk melihat seragam Ikhwan dan Akhwat. Klik gambar
+              untuk memperbesar.
+            </p>
+          </div>
+          <div class="day-tabs" role="tablist" aria-label="Hari seragam">
+            <button
+              type="button"
+              role="tab"
+              aria-selected="true"
+              aria-controls="uniform-panel-0"
+              id="uniform-tab-0"
+            >
+              Senin–Selasa</button
+            ><button
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="uniform-panel-1"
+              id="uniform-tab-1"
+            >
+              Rabu</button
+            ><button
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="uniform-panel-2"
+              id="uniform-tab-2"
+            >
+              Kamis</button
+            ><button
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="uniform-panel-3"
+              id="uniform-tab-3"
+            >
+              Jumat–Sabtu
+            </button>
+          </div>
+          <div
+            class="uniform-panel"
+            role="tabpanel"
+            id="uniform-panel-0"
+            aria-labelledby="uniform-tab-0"
+          >
+            <figure>
+              <button
+                type="button"
+                data-image="assets/images/uniform-1.webp"
+                data-title="Seragam Senin–Selasa Ikhwan"
+              >
+                <img
+                  src="assets/images/uniform-1.webp"
+                  alt="Seragam Ikhwan Senin–Selasa"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </button>
+              <figcaption>Ikhwan · Senin–Selasa</figcaption>
+            </figure>
+            <figure>
+              <button
+                type="button"
+                data-image="assets/images/uniform-2.webp"
+                data-title="Seragam Senin–Selasa Akhwat"
+              >
+                <img
+                  src="assets/images/uniform-2.webp"
+                  alt="Seragam Akhwat Senin–Selasa"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </button>
+              <figcaption>Akhwat · Senin–Selasa</figcaption>
+            </figure>
+          </div>
+          <div
+            class="uniform-panel"
+            role="tabpanel"
+            id="uniform-panel-1"
+            aria-labelledby="uniform-tab-1"
+            hidden
+          >
+            <figure>
+              <button
+                type="button"
+                data-image="assets/images/uniform-3.webp"
+                data-title="Seragam Rabu Ikhwan"
+              >
+                <img
+                  src="assets/images/uniform-3.webp"
+                  alt="Seragam Ikhwan Rabu"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </button>
+              <figcaption>Ikhwan · Rabu</figcaption>
+            </figure>
+            <figure>
+              <button
+                type="button"
+                data-image="assets/images/uniform-4.webp"
+                data-title="Seragam Rabu Akhwat"
+              >
+                <img
+                  src="assets/images/uniform-4.webp"
+                  alt="Seragam Akhwat Rabu"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </button>
+              <figcaption>Akhwat · Rabu</figcaption>
+            </figure>
+          </div>
+          <div
+            class="uniform-panel"
+            role="tabpanel"
+            id="uniform-panel-2"
+            aria-labelledby="uniform-tab-2"
+            hidden
+          >
+            <figure>
+              <button
+                type="button"
+                data-image="assets/images/uniform-5.webp"
+                data-title="Seragam Kamis Ikhwan"
+              >
+                <img
+                  src="assets/images/uniform-5.webp"
+                  alt="Seragam Ikhwan Kamis"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </button>
+              <figcaption>Ikhwan · Kamis</figcaption>
+            </figure>
+            <figure>
+              <button
+                type="button"
+                data-image="assets/images/uniform-6.webp"
+                data-title="Seragam Kamis Akhwat"
+              >
+                <img
+                  src="assets/images/uniform-6.webp"
+                  alt="Seragam Akhwat Kamis"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </button>
+              <figcaption>Akhwat · Kamis</figcaption>
+            </figure>
+          </div>
+          <div
+            class="uniform-panel"
+            role="tabpanel"
+            id="uniform-panel-3"
+            aria-labelledby="uniform-tab-3"
+            hidden
+          >
+            <figure>
+              <button
+                type="button"
+                data-image="assets/images/uniform-7.webp"
+                data-title="Seragam Jumat–Sabtu Ikhwan"
+              >
+                <img
+                  src="assets/images/uniform-7.webp"
+                  alt="Seragam Ikhwan Jumat–Sabtu"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </button>
+              <figcaption>Ikhwan · Jumat–Sabtu</figcaption>
+            </figure>
+            <figure>
+              <button
+                type="button"
+                data-image="assets/images/uniform-8.webp"
+                data-title="Seragam Jumat–Sabtu Akhwat"
+              >
+                <img
+                  src="assets/images/uniform-8.webp"
+                  alt="Seragam Akhwat Jumat–Sabtu"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </button>
+              <figcaption>Akhwat · Jumat–Sabtu</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION: EKSTRAKURIKULER -->
+      <section class="section" id="ekstrakurikuler">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Minat dan bakat</p>
+            <h2>Ekstrakurikuler</h2>
+          </div>
+          <div class="activity-list">
+            <button
+              type="button"
+              data-activity="Sekolah Kepemimpinan"
+              data-mentor="Ust. Choirul Fajri, S.Pd"
+              data-description="Pelatihan kepemimpinan, kerja sama, dan tanggung jawab dalam organisasi."
+            >
+              <span>01</span>
+              <div>
+                <h3>Sekolah Kepemimpinan</h3>
+                <p>Ust. Choirul Fajri, S.Pd</p>
+              </div>
+              <img
+                class="icon"
+                src="assets/icons/arrow-up-right.svg"
+                alt=""
+                aria-hidden="true"
+                width="20"
+                height="20"
+              /></button
+            ><button
+              type="button"
+              data-activity="Teater Pijar"
+              data-mentor="Ustz. Rahma, S.Pd"
+              data-description="Ruang untuk mengembangkan ekspresi, kreativitas, dan kepercayaan diri melalui seni pertunjukan."
+            >
+              <span>02</span>
+              <div>
+                <h3>Teater Pijar</h3>
+                <p>Ustz. Rahma, S.Pd</p>
+              </div>
+              <img
+                class="icon"
+                src="assets/icons/arrow-up-right.svg"
+                alt=""
+                aria-hidden="true"
+                width="20"
+                height="20"
+              /></button
+            ><button
+              type="button"
+              data-activity="School of Riset"
+              data-mentor="Ustz. Sakinah Mawadah Siregar, S.Pd"
+              data-description="Mengembangkan rasa ingin tahu, menyusun penelitian, dan belajar menyampaikan karya ilmiah."
+            >
+              <span>03</span>
+              <div>
+                <h3>School of Riset</h3>
+                <p>Ustz. Sakinah Mawadah Siregar, S.Pd</p>
+              </div>
+              <img
+                class="icon"
+                src="assets/icons/arrow-up-right.svg"
+                alt=""
+                aria-hidden="true"
+                width="20"
+                height="20"
+              /></button
+            ><button
+              type="button"
+              data-activity="Multimedia Ikhwan"
+              data-mentor="Ust. Abdan Syakuro"
+              data-description="Mengembangkan kreativitas dalam produksi foto, video, dan konten digital."
+            >
+              <span>04</span>
+              <div>
+                <h3>Multimedia Ikhwan</h3>
+                <p>Ust. Abdan Syakuro</p>
+              </div>
+              <img
+                class="icon"
+                src="assets/icons/arrow-up-right.svg"
+                alt=""
+                aria-hidden="true"
+                width="20"
+                height="20"
+              /></button
+            ><button
+              type="button"
+              data-activity="Palang Merah Remaja"
+              data-mentor="Ustz. Rosi"
+              data-description="Mengembangkan kepedulian, keterampilan pertolongan pertama, dan kerja sama."
+            >
+              <span>05</span>
+              <div>
+                <h3>Palang Merah Remaja</h3>
+                <p>Ustz. Rosi</p>
+              </div>
+              <img
+                class="icon"
+                src="assets/icons/arrow-up-right.svg"
+                alt=""
+                aria-hidden="true"
+                width="20"
+                height="20"
+              /></button
+            ><button
+              type="button"
+              data-activity="Voli"
+              data-mentor="Ust. Ugi"
+              data-description="Mengembangkan keterampilan olahraga, sportivitas, dan kerja sama tim."
+            >
+              <span>06</span>
+              <div>
+                <h3>Voli</h3>
+                <p>Ust. Ugi</p>
+              </div>
+              <img
+                class="icon"
+                src="assets/icons/arrow-up-right.svg"
+                alt=""
+                aria-hidden="true"
+                width="20"
+                height="20"
+              /></button
+            ><button
+              type="button"
+              data-activity="Entrepreneurship Ikhwan"
+              data-mentor="Ust. Furqon"
+              data-description="Mengenal kewirausahaan serta mengembangkan ide dan kreativitas dalam berkarya."
+            >
+              <span>07</span>
+              <div>
+                <h3>Entrepreneurship Ikhwan</h3>
+                <p>Ust. Furqon</p>
+              </div>
+              <img
+                class="icon"
+                src="assets/icons/arrow-up-right.svg"
+                alt=""
+                aria-hidden="true"
+                width="20"
+                height="20"
+              /></button
+            ><button
+              type="button"
+              data-activity="Multimedia Akhwat"
+              data-mentor="Ust. Fahmi Maulana"
+              data-description="Mengembangkan kreativitas dalam produksi foto, video, dan konten digital."
+            >
+              <span>08</span>
+              <div>
+                <h3>Multimedia Akhwat</h3>
+                <p>Ust. Fahmi Maulana</p>
+              </div>
+              <img
+                class="icon"
+                src="assets/icons/arrow-up-right.svg"
+                alt=""
+                aria-hidden="true"
+                width="20"
+                height="20"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION: OSPETA -->
+      <section class="section soft-section" id="ospeta">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Organisasi santri</p>
+            <h2>OSPETA 2026/2027</h2>
+            <p>
+              Organisasi Siswa Pesantren Terpadu Al Kahfi menjadi ruang belajar
+              memimpin, bekerja sama, dan bertanggung jawab.
+            </p>
+          </div>
+          <div class="ospeta-grid">
+            <article>
+              <h3>OSPETA Ikhwan</h3>
+              <p>
+                Struktur santriwan terdiri dari ketua, wakil ketua, bendahara,
+                dan divisi kerja.
+              </p>
+            </article>
+            <article>
+              <h3>OSPETA Akhwat</h3>
+              <p>
+                Struktur santriwati terdiri dari ketua, wakil ketua, bendahara,
+                dan divisi kerja.
+              </p>
+            </article>
+          </div>
+          <h3 class="subheading">Divisi organisasi</h3>
+          <ul class="division-list">
+            <li>Kesekretariatan</li>
+            <li>Keuangan</li>
+            <li>Penelitian dan Pengembangan</li>
+            <li>Ruhiyah</li>
+            <li>Kedisiplinan</li>
+            <li>Bahasa</li>
+            <li>Pendidikan</li>
+            <li>Humas dan Keasramaan</li>
+            <li>Bela Negara</li>
+            <li>Olahraga</li>
+            <li>Media Sosial</li>
+            <li>Ekonomi dan Wirausaha</li>
+            <li>Kebersihan dan Kesehatan</li>
+          </ul>
+          <a
+            class="text-action"
+            href="https://www.instagram.com/ospeta.official/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram OSPETA<img
+              class="icon"
+              src="assets/icons/arrow-up-right.svg"
+              alt=""
+              aria-hidden="true"
+              width="20"
+              height="20"
+          /></a>
+        </div>
+      </section>
+    </main>
+
     <!-- SECTION: FOOTER -->
     <footer class="site-footer">
       <div class="container footer-row">
-        <div><strong>SMAIT AL KAHFI</strong><p>Jl. SPN PMJ, Desa Srogol, Cigombong, Bogor</p></div>
-        <nav aria-label="Navigasi footer"><a href="index.html">Beranda</a><a href="kurikulum.html">Jurusan</a><a href="kontak.html">Kontak</a></nav>
-        <div class="footer-contact"><a href="tel:+622518224388">(0251) 8224388</a><a href="mailto:smaitalkahfi@gmail.com">smaitalkahfi@gmail.com</a></div>
+        <div>
+          <strong>SMAIT AL KAHFI</strong>
+          <p>Jl. SPN PMJ, Desa Srogol, Cigombong, Bogor</p>
+        </div>
+        <nav aria-label="Navigasi footer">
+          <a href="index.html">Beranda</a><a href="kurikulum.html">Jurusan</a
+          ><a href="kontak.html">Kontak</a>
+        </nav>
+        <div class="footer-contact">
+          <a href="tel:+622518224388">(0251) 8224388</a
+          ><a href="mailto:smaitalkahfi@gmail.com">smaitalkahfi@gmail.com</a>
+        </div>
       </div>
-      <div class="container copyright"><span>Copyright © 2026 SMAIT Al Kahfi</span><a href="#top">Kembali ke atas <img class="icon" src="assets/icons/arrow-up.svg" alt="" aria-hidden="true" width="20" height="20"></a></div>
+      <div class="container copyright">
+        <span>Copyright © 2026 SMAIT Al Kahfi</span
+        ><a href="#top"
+          >Kembali ke atas
+          <img
+            class="icon"
+            src="assets/icons/arrow-up.svg"
+            alt=""
+            aria-hidden="true"
+            width="20"
+            height="20"
+        /></a>
+      </div>
     </footer>
-  <dialog id="site-dialog" aria-labelledby="dialog-title"><div class="dialog-head"><h2 id="dialog-title"></h2><button type="button" class="dialog-close" aria-label="Tutup"><img class="icon" src="assets/icons/x.svg" alt="" aria-hidden="true" width="20" height="20"></button></div><div class="dialog-body"></div></dialog>
-</body>
+    <dialog id="site-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-head">
+        <h2 id="dialog-title"></h2>
+        <button type="button" class="dialog-close" aria-label="Tutup">
+          <img
+            class="icon"
+            src="assets/icons/x.svg"
+            alt=""
+            aria-hidden="true"
+            width="20"
+            height="20"
+          />
+        </button>
+      </div>
+      <div class="dialog-body"></div>
+    </dialog>
+  </body>
 </html>
