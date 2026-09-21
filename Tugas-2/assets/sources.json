@@ -1,694 +1,170 @@
-{
-  "source": "https://smaitalkahfi.sch.id/",
-  "retrieved": "2026-09-17",
-  "assets": [
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/Shalih-Muslih-Qudwah.jpg",
-      "path": "assets/images/logo.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/IMG_1962_result-1024x575.webp",
-      "path": "assets/images/campus.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/alkahfi-program-2382.webp",
-      "path": "assets/images/classroom.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/alkahfi-program-2509.webp",
-      "path": "assets/images/studentlife.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/alkahfi-program-2524.webp",
-      "path": "assets/images/interests.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/alkahfi-program-2589.webp",
-      "path": "assets/images/leadership.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image04-1-768x1024.webp",
-      "path": "assets/images/youth.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/02/H-7-Instagram-Post-45-1-R.-Yuli-819x1024.png",
-      "path": "assets/images/scouting.png"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/12/1-1024x1024.webp",
-      "path": "assets/images/silat.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image01-1.webp",
-      "path": "assets/images/admissions.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/IMG_0499.webp",
-      "path": "assets/images/alumni.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/IMG_1587.webp",
-      "path": "assets/images/alumni-group.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/02/IMG-20260209-WA0082-R.-Yuli-scaled.jpg",
-      "path": "assets/images/scouting-life.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image02.webp",
-      "path": "assets/images/uniform-1.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image01.webp",
-      "path": "assets/images/uniform-2.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image04.webp",
-      "path": "assets/images/uniform-3.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image03.webp",
-      "path": "assets/images/uniform-4.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image06.webp",
-      "path": "assets/images/uniform-5.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image05.webp",
-      "path": "assets/images/uniform-6.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image08.webp",
-      "path": "assets/images/uniform-7.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image07.webp",
-      "path": "assets/images/uniform-8.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image02-1-300x200.webp",
-      "path": "assets/images/article-4642-0.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image03-1-300x200.webp",
-      "path": "assets/images/article-4642-1.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image05-1-300x200.webp",
-      "path": "assets/images/article-4642-2.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image01-2-169x300.webp",
-      "path": "assets/images/article-4642-3.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/02/8-1-R.-Yuli-819x1024.png",
-      "path": "assets/images/article-3007-0.png"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/02/10-1-R.-Yuli-819x1024.png",
-      "path": "assets/images/article-3007-1.png"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2026/02/IMG-20260209-WA0082-R.-Yuli-1024x769.jpg",
-      "path": "assets/images/article-3007-2.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/12/9-1024x1024.webp",
-      "path": "assets/images/article-2984-1.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/12/7-1024x1024.webp",
-      "path": "assets/images/article-2984-2.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/12/8-1024x1024.webp",
-      "path": "assets/images/article-2984-3.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/11/Screenshot_10.jpg",
-      "path": "assets/images/article-2965-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/11/Screenshot_12.jpg",
-      "path": "assets/images/article-2965-1.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-09-at-11.20.17-AM-576x1024.webp",
-      "path": "assets/images/article-2965-2.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-09-at-11.20.17-AM-2-574x1024.webp",
-      "path": "assets/images/article-2965-3.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-09-at-11.20.17-AM-1-1024x576.webp",
-      "path": "assets/images/article-2965-4.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-09-at-11.20.18-AM-1024x768.webp",
-      "path": "assets/images/article-2965-5.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/11/IMG-20251027-WA0070-R.-Yuli-1024x769.jpg",
-      "path": "assets/images/article-2953-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/11/IMG-20251027-WA0071-R.-Yuli-1024x769.jpg",
-      "path": "assets/images/article-2953-1.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/11/IMG-20251027-WA0041-R.-Yuli-768x1024.jpg",
-      "path": "assets/images/article-2953-2.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/11/IMG-20251027-WA0061-R.-Yuli-1-1024x769.jpg",
-      "path": "assets/images/article-2953-3.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/10/IMG-20251025-WA0100-R.-Yuli-768x1024.jpg",
-      "path": "assets/images/article-2934-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/10/IMG-20251025-WA0083-R.-Yuli-768x1024.jpg",
-      "path": "assets/images/article-2934-1.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/10/IMG-20251025-WA0066-R.-Yuli-576x1024.jpg",
-      "path": "assets/images/article-2934-2.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/10/IMG-20251025-WA0105-R.-Yuli-768x1024.jpg",
-      "path": "assets/images/article-2934-3.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/10/20251027_172015-R.-Yuli-scaled-e1761636661132-1024x993.jpg",
-      "path": "assets/images/news-2934.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/10/IMG-20251026-WA0006-Muhammad-Safei-450x1024.jpg",
-      "path": "assets/images/article-2919-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/10/IMG-20251026-WA0009-Muhammad-Safei-1024x449.jpg",
-      "path": "assets/images/article-2919-1.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/10/IMG-20251026-WA0011-Muhammad-Safei-1024x771.jpg",
-      "path": "assets/images/article-2919-2.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/10/IMG-20251026-WA0005-Muhammad-Safei-1024x450.jpg",
-      "path": "assets/images/article-2919-3.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/10/20251011_213528-Putri-Rahma-1024x576.jpg",
-      "path": "assets/images/article-2597-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/10/20251011_204316-Putri-Rahma-1024x576.jpg",
-      "path": "assets/images/article-2597-1.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-22-at-10.18.34-AM-1024x576.jpeg",
-      "path": "assets/images/article-2586-0.jpeg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-22-at-10.18.34-AM-1-1024x576.jpeg",
-      "path": "assets/images/article-2586-1.jpeg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/09/IMG-20250920-WA0034-M.-Furqon-Azizi-768x1024.jpg",
-      "path": "assets/images/article-2579-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/09/IMG-20250920-WA0033-M.-Furqon-Azizi-768x1024.jpg",
-      "path": "assets/images/article-2579-1.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/05/unnamed-1024x576.webp",
-      "path": "assets/images/news-2562.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/09/IMG-20250830-WA0030-Bunyirintik-1024x576.jpg",
-      "path": "assets/images/article-2548-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/09/20250830_115309-Bunyirintik-1024x768.jpg",
-      "path": "assets/images/article-2548-1.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/09/IMG-20250830-WA0027-Bunyirintik-scaled-e1756786550510-984x1024.jpg",
-      "path": "assets/images/article-2548-2.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/08/Screenshot_5.jpg",
-      "path": "assets/images/article-2523-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/08/Screenshot_8.jpg",
-      "path": "assets/images/article-2523-1.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/08/Screenshot_7.jpg",
-      "path": "assets/images/article-2523-2.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/08/Screenshot_6.jpg",
-      "path": "assets/images/article-2523-3.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/08/Screenshot_10.jpg",
-      "path": "assets/images/article-2523-4.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/08/Screenshot_9.jpg",
-      "path": "assets/images/article-2523-5.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/08/Screenshot_5-768x765.jpg",
-      "path": "assets/images/news-2523.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/08/20250726_080229-R.-Yuli-scaled-e1754229100684-1024x536.jpg",
-      "path": "assets/images/news-2508.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/08/81ec9bb0-8d43-4fb9-8e70-58b3f1bfae32-Sheni-Yulia-768x1024.jpg",
-      "path": "assets/images/news-2501.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/06/IMG-20250524-WA0078-kesiswaan-SMA-Al-Kahfi-768x576.jpg",
-      "path": "assets/images/article-2489-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/06/IMG-20250524-WA0087-kesiswaan-SMA-Al-Kahfi-768x1024.jpg",
-      "path": "assets/images/article-2489-1.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/06/IMG-20250522-WA0035-kesiswaan-SMA-Al-Kahfi-1024x768.jpg",
-      "path": "assets/images/article-2489-2.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/06/IMG-20250522-WA00501-kesiswaan-SMA-Al-Kahfi-768x1024.jpg",
-      "path": "assets/images/article-2489-3.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/06/IMG-20250524-WA0091-kesiswaan-SMA-Al-Kahfi-1024x576.jpg",
-      "path": "assets/images/news-2489.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/05/1.jpg",
-      "path": "assets/images/article-2460-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/05/Screenshot_1.jpg",
-      "path": "assets/images/article-2460-1.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/05/2-1024x576.jpg",
-      "path": "assets/images/article-2433-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/05/Screenshot_21.png",
-      "path": "assets/images/article-2433-1.png"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/05/Screenshot_22.png",
-      "path": "assets/images/article-2433-2.png"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/05/YouTube-Banner-Congratulations-to-SNBT-CLASS-16-1024x576.jpg",
-      "path": "assets/images/article-2416-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/05/Screenshot_18-1024x521.png",
-      "path": "assets/images/article-2416-1.png"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/05/Screenshot_19-1024x179.png",
-      "path": "assets/images/article-2416-2.png"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2025/05/Screenshot_20-1024x263.png",
-      "path": "assets/images/article-2416-3.png"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/05/5-1024x384.jpg",
-      "path": "assets/images/article-2071-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/05/6-1024x384.jpg",
-      "path": "assets/images/article-2071-1.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/05/1-1024x384.jpg",
-      "path": "assets/images/article-2071-2.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/05/2-1024x384.jpg",
-      "path": "assets/images/article-2071-3.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/05/3-1024x384.jpg",
-      "path": "assets/images/article-2071-4.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/05/4-1024x384.jpg",
-      "path": "assets/images/article-2071-5.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/05/Screenshot_2-1.jpg",
-      "path": "assets/images/article-1982-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/05/2-1024x384.png",
-      "path": "assets/images/article-1982-1.png"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/05/cover-web-SMA-1920-×-720-px-1-1024x384.jpg",
-      "path": "assets/images/article-1982-2.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/02/cover-web-SMA-1920-×-720-px-1024x384.png",
-      "path": "assets/images/article-1930-1.png"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/01/2-1-1024x384.jpg",
-      "path": "assets/images/article-1890-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/01/1-1-1024x384.jpg",
-      "path": "assets/images/article-1890-1.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/01/3-1024x384.jpg",
-      "path": "assets/images/article-1875-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/01/2-1024x384.jpg",
-      "path": "assets/images/article-1875-1.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2023/01/1-1024x384.jpg",
-      "path": "assets/images/article-1875-2.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/10/IMG_9503_result-300x168.webp",
-      "path": "assets/images/article-1804-0.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/10/IMG_9624_result-300x168.webp",
-      "path": "assets/images/article-1804-1.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/10/IMG_9313_result-300x168.webp",
-      "path": "assets/images/article-1804-2.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/10/IMG_9322_result-300x168.webp",
-      "path": "assets/images/article-1804-3.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/10/IMG_9339_result-300x168.webp",
-      "path": "assets/images/article-1804-4.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/10/IMG_9347_result-300x168.webp",
-      "path": "assets/images/article-1804-5.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/10/IMG_9432_result-1024x575.webp",
-      "path": "assets/images/news-1804.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/10/AIMO_result-1024x384.webp",
-      "path": "assets/images/news-1737.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/10/FedX_result-1024x384.webp",
-      "path": "assets/images/news-1729.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/10/Physics-Quiky-Mack_result-1024x384.webp",
-      "path": "assets/images/news-1719.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/10/Quiz-Contest-Recovered_result-1024x384.webp",
-      "path": "assets/images/article-1709-0.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/08/cover-web-SMA-1920-×-720-px-1024x384.jpg",
-      "path": "assets/images/article-1657-0.jpg"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/07/2_2-SNM-pola_result-1024x384.png",
-      "path": "assets/images/article-1621-0.png"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/SHORT-MOVIE_result-1024x384.webp",
-      "path": "assets/images/article-990-0.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/nafis_result-1024x384.webp",
-      "path": "assets/images/article-985-0.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/DEXAL_result-1024x384.webp",
-      "path": "assets/images/article-980-0.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/ANDI-MALIKA_result-1024x384.webp",
-      "path": "assets/images/article-912-0.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/1out_result-1024x520.webp",
-      "path": "assets/images/article-860-0.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/IMG_8813_result-768x431.webp",
-      "path": "assets/images/article-860-1.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/cover-web-1920-×-720-px-1_result.webp",
-      "path": "assets/images/article-842-0.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/cover-web-1920-×-720-px-1_result-1024x384.webp",
-      "path": "assets/images/news-842.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/cover-web-1920-×-720-px_result-1-1024x384.webp",
-      "path": "assets/images/article-814-0.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/IMG_8474_result-1-768x431.webp",
-      "path": "assets/images/article-814-1.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/IMG_8474_result-1-1024x575.webp",
-      "path": "assets/images/news-814.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/Screenshot_2_result-1024x525.webp",
-      "path": "assets/images/article-385-0.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/Screenshot_1_result_result-150x150.webp",
-      "path": "assets/images/article-385-1.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/IMG_0754_result-1536x862-1_result-150x150.webp",
-      "path": "assets/images/article-385-2.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/1_result-1-1-150x150.webp",
-      "path": "assets/images/article-385-3.webp"
-    },
-    {
-      "url": "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/Screenshot_1_result-1024x521.webp",
-      "path": "assets/images/news-385.webp"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/HIop7lPdrqQ/hqdefault.jpg",
-      "path": "assets/images/video-HIop7lPdrqQ.jpg"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/j3iieMubK6E/hqdefault.jpg",
-      "path": "assets/images/video-j3iieMubK6E.jpg"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/8SYiGhltepY/hqdefault.jpg",
-      "path": "assets/images/video-8SYiGhltepY.jpg"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/pmHbp8g-pVA/hqdefault.jpg",
-      "path": "assets/images/video-pmHbp8g-pVA.jpg"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/aeD9XWJnwGw/hqdefault.jpg",
-      "path": "assets/images/video-aeD9XWJnwGw.jpg"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/eAksHawmAvI/hqdefault.jpg",
-      "path": "assets/images/video-eAksHawmAvI.jpg"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/TeUPyU9qNmA/hqdefault.jpg",
-      "path": "assets/images/video-TeUPyU9qNmA.jpg"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/miZiCPDNl1g/hqdefault.jpg",
-      "path": "assets/images/video-miZiCPDNl1g.jpg"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/1FhqscJh5EM/hqdefault.jpg",
-      "path": "assets/images/video-1FhqscJh5EM.jpg"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/gX4dTdJEmHk/hqdefault.jpg",
-      "path": "assets/images/video-gX4dTdJEmHk.jpg"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/bk4U9XLVWCg/hqdefault.jpg",
-      "path": "assets/images/video-bk4U9XLVWCg.jpg"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/hqZTsR0SMRw/hqdefault.jpg",
-      "path": "assets/images/video-hqZTsR0SMRw.jpg"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/A_j8WuWs2OY/hqdefault.jpg",
-      "path": "assets/images/video-A_j8WuWs2OY.jpg"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/rieZKpq6Irw/hqdefault.jpg",
-      "path": "assets/images/video-rieZKpq6Irw.jpg"
-    },
-    {
-      "url": "https://i.ytimg.com/vi/LdoAVdadgSE/hqdefault.jpg",
-      "path": "assets/images/video-LdoAVdadgSE.jpg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/arrow-right.svg",
-      "path": "assets/icons/arrow-right.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/arrow-up-right.svg",
-      "path": "assets/icons/arrow-up-right.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/arrow-left.svg",
-      "path": "assets/icons/arrow-left.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/arrow-up.svg",
-      "path": "assets/icons/arrow-up.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/caret-down.svg",
-      "path": "assets/icons/caret-down.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/list.svg",
-      "path": "assets/icons/list.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/x.svg",
-      "path": "assets/icons/x.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/magnifying-glass.svg",
-      "path": "assets/icons/magnifying-glass.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/graduation-cap.svg",
-      "path": "assets/icons/graduation-cap.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/book-open.svg",
-      "path": "assets/icons/book-open.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/buildings.svg",
-      "path": "assets/icons/buildings.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/envelope-simple.svg",
-      "path": "assets/icons/envelope-simple.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/phone.svg",
-      "path": "assets/icons/phone.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/map-pin.svg",
-      "path": "assets/icons/map-pin.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/clock.svg",
-      "path": "assets/icons/clock.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/users-three.svg",
-      "path": "assets/icons/users-three.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/trophy.svg",
-      "path": "assets/icons/trophy.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/plant.svg",
-      "path": "assets/icons/plant.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/play.svg",
-      "path": "assets/icons/play.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/compass.svg",
-      "path": "assets/icons/compass.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/check.svg",
-      "path": "assets/icons/check.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/download-simple.svg",
-      "path": "assets/icons/download-simple.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/camera.svg",
-      "path": "assets/icons/camera.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/calendar-blank.svg",
-      "path": "assets/icons/calendar-blank.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/chart-bar.svg",
-      "path": "assets/icons/chart-bar.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/globe.svg",
-      "path": "assets/icons/globe.svg"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js",
-      "path": "assets/vendor/gsap.min.js"
-    },
-    {
-      "url": "https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js",
-      "path": "assets/vendor/ScrollTrigger.min.js"
-    },
-    {
-      "url": "https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyC4E.ttf",
-      "path": "assets/fonts/outfit.ttf"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/outfit/OFL.txt",
-      "path": "assets/fonts/OFL.txt"
-    }
-  ]
+﻿{
+    "source":  "https://smaitalkahfi.sch.id/",
+    "retrieved":  "2026-09-17",
+    "assets":  [
+                   {
+                       "url":  "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/Shalih-Muslih-Qudwah.jpg",
+                       "path":  "assets/images/logo.jpg"
+                   },
+                   {
+                       "url":  "https://smaitalkahfi.sch.id/wp-content/uploads/2022/03/IMG_1962_result-1024x575.webp",
+                       "path":  "assets/images/campus.webp"
+                   },
+                   {
+                       "url":  "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image02.webp",
+                       "path":  "assets/images/uniform-1.webp"
+                   },
+                   {
+                       "url":  "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image01.webp",
+                       "path":  "assets/images/uniform-2.webp"
+                   },
+                   {
+                       "url":  "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image04.webp",
+                       "path":  "assets/images/uniform-3.webp"
+                   },
+                   {
+                       "url":  "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image03.webp",
+                       "path":  "assets/images/uniform-4.webp"
+                   },
+                   {
+                       "url":  "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image06.webp",
+                       "path":  "assets/images/uniform-5.webp"
+                   },
+                   {
+                       "url":  "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image05.webp",
+                       "path":  "assets/images/uniform-6.webp"
+                   },
+                   {
+                       "url":  "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image08.webp",
+                       "path":  "assets/images/uniform-7.webp"
+                   },
+                   {
+                       "url":  "https://smaitalkahfi.sch.id/wp-content/uploads/2026/09/Image07.webp",
+                       "path":  "assets/images/uniform-8.webp"
+                   },
+                   {
+                       "url":  "https://i.ytimg.com/vi/A_j8WuWs2OY/hqdefault.jpg",
+                       "path":  "assets/images/video-A_j8WuWs2OY.jpg"
+                   },
+                   {
+                       "url":  "https://i.ytimg.com/vi/rieZKpq6Irw/hqdefault.jpg",
+                       "path":  "assets/images/video-rieZKpq6Irw.jpg"
+                   },
+                   {
+                       "url":  "https://i.ytimg.com/vi/LdoAVdadgSE/hqdefault.jpg",
+                       "path":  "assets/images/video-LdoAVdadgSE.jpg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/arrow-right.svg",
+                       "path":  "assets/icons/arrow-right.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/arrow-up-right.svg",
+                       "path":  "assets/icons/arrow-up-right.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/arrow-left.svg",
+                       "path":  "assets/icons/arrow-left.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/arrow-up.svg",
+                       "path":  "assets/icons/arrow-up.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/caret-down.svg",
+                       "path":  "assets/icons/caret-down.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/list.svg",
+                       "path":  "assets/icons/list.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/x.svg",
+                       "path":  "assets/icons/x.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/magnifying-glass.svg",
+                       "path":  "assets/icons/magnifying-glass.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/graduation-cap.svg",
+                       "path":  "assets/icons/graduation-cap.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/book-open.svg",
+                       "path":  "assets/icons/book-open.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/buildings.svg",
+                       "path":  "assets/icons/buildings.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/envelope-simple.svg",
+                       "path":  "assets/icons/envelope-simple.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/phone.svg",
+                       "path":  "assets/icons/phone.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/map-pin.svg",
+                       "path":  "assets/icons/map-pin.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/clock.svg",
+                       "path":  "assets/icons/clock.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/users-three.svg",
+                       "path":  "assets/icons/users-three.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/trophy.svg",
+                       "path":  "assets/icons/trophy.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/plant.svg",
+                       "path":  "assets/icons/plant.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/play.svg",
+                       "path":  "assets/icons/play.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/compass.svg",
+                       "path":  "assets/icons/compass.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/check.svg",
+                       "path":  "assets/icons/check.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/download-simple.svg",
+                       "path":  "assets/icons/download-simple.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/camera.svg",
+                       "path":  "assets/icons/camera.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/calendar-blank.svg",
+                       "path":  "assets/icons/calendar-blank.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/chart-bar.svg",
+                       "path":  "assets/icons/chart-bar.svg"
+                   },
+                   {
+                       "url":  "https://cdn.jsdelivr.net/npm/@phosphor-icons/core@2.1.1/assets/regular/globe.svg",
+                       "path":  "assets/icons/globe.svg"
+                   },
+                   {
+                       "url":  "https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyC4E.ttf",
+                       "path":  "assets/fonts/outfit.ttf"
+                   },
+                   {
+                       "url":  "https://raw.githubusercontent.com/google/fonts/main/ofl/outfit/OFL.txt",
+                       "path":  "assets/fonts/OFL.txt"
+                   }
+               ]
 }

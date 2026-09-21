@@ -17,14 +17,6 @@ A responsive personal portfolio built with semantic HTML and modern CSS. It pres
 
 The project is deployed at https://portolisa.vercel.app/.
 
-To run it locally, open `index.html` directly in a browser. No build step or package installation is required.
-
-For a local server, run one of these commands from this directory:
-
-```bash
-npx serve .
-```
-
 ## Design notes
 
 - Native HTML and CSS keep the project small and portable.
