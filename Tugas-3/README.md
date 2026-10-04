@@ -215,9 +215,4 @@ Analitik trafik, konversi pendaftaran, dan pengiriman form tidak tersedia di dal
 ## 10. Referensi Implementasi
 
 - [README Tugas-2](../Tugas-2/README.md)
-- [Beranda](../Tugas-2/index.html)
-- [Jurusan dan kurikulum](../Tugas-2/kurikulum.html)
-- [Kehidupan santri](../Tugas-2/kesiswaan.html)
-- [Alumni](../Tugas-2/alumni.html)
-- [Kontak](../Tugas-2/kontak.html)
-- [Interaksi JavaScript](../Tugas-2/assets/app.js)
+- [Link Website](https://schoolweb-pweb.vercel.app/)
