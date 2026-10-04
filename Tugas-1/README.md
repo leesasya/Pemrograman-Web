@@ -1,26 +1,26 @@
-# 1st Assignment: Create a CV & Portofolio Website
+# Tugas 1: Membuat Website CV dan Portofolio
 
-**Name: Khalisya Zahra Putria Rahman**
+**Nama: Khalisya Zahra Putria Rahman**
 
 **NRP: 5025251045**
 
-**Class: Web Programming B**
+**Kelas: Pemrograman Web B**
 
-A responsive personal portfolio built with semantic HTML and modern CSS. It presents Khalisya's profile, selected experience, education, skills, and contact details using content from the supplied CV.
+Portofolio pribadi responsif yang dibuat menggunakan HTML semantik dan CSS modern. Situs ini menampilkan profil Khalisya, pengalaman terpilih, pendidikan, keterampilan, dan informasi kontak berdasarkan CV yang disediakan.
 
-## Files
+## File
 
-- [`index.html`](index.html) contains all page structure and content.
-- [`style.css`](style.css) contains the full visual system, responsive layout, dark mode, and motion preferences.
+- [`index.html`](index.html) berisi seluruh struktur dan konten halaman.
+- [`style.css`](style.css) berisi sistem visual, tata letak responsif, mode gelap, dan pengaturan animasi.
 
-## Run / Preview
+## Preview
 
-The project is deployed at https://portolisa.vercel.app/.
+https://portolisa.vercel.app/.
 
-## Design notes
+## Catatan Desain
 
-- Native HTML and CSS keep the project small and portable.
-- The layout adapts from an asymmetric desktop composition to a single-column mobile view.
-- System color preference controls light and dark themes.
-- Animations respect `prefers-reduced-motion`.
-- Contact links, keyboard focus states, semantic landmarks, and descriptive image text improve accessibility.
+- HTML dan CSS bawaan menjaga proyek tetap ringan dan mudah dijalankan di berbagai lingkungan.
+- Tata letak menyesuaikan diri dari komposisi desktop asimetris menjadi tampilan satu kolom pada perangkat seluler.
+- Preferensi warna sistem mengatur tema terang dan gelap.
+- Animasi mengikuti preferensi `prefers-reduced-motion`.
+- Tautan kontak, indikator fokus papan ketik, landmark semantik, dan teks deskriptif pada gambar meningkatkan aksesibilitas.

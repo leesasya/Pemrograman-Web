@@ -1,67 +1,141 @@
-# 2nd Assignment: School Website
+# Tugas 2: Website Sekolah
 
-**Name: Khalisya Zahra Putria Rahman**
+**Nama: Khalisya Zahra Putria Rahman**
 
 **NRP: 5025251045**
 
-**Class: Web Programming B**
+**Kelas: Pemrograman Web B**
 
-## Features and Pages
+## Fitur dan Halaman
 
-This website consists of several interconnected pages featuring responsive main navigation. Each section within the HTML pages is clearly organized and labeled with neat comments.
+Website ini terdiri atas beberapa halaman yang saling terhubung dan memiliki navigasi utama responsif. Setiap bagian dalam halaman HTML disusun dengan jelas dan diberi komentar.
 
-### 1. Home [`index.html`](index.html)
-The main page providing an overview of the school.
-- **Home Hero**: Displays the main banner, motto, and call-to-action.
-- **Values**: Presents core values ​​(*Shalih*, *Muslih*, *Qudwah*).
-- **School Profile**: A welcome message from the Principal.
-- **Vision & Mission**: Description of the school's vision and mission.
-- **School Information**: Quick links to the Departments, Student Life, Alumni, and Contact pages.
-- **Enrollment**: Directions to the official enrollment website.
+### 1. Beranda [`index.html`](index.html)
+Halaman utama yang memberikan gambaran umum tentang sekolah.
+- **Hero Beranda**: Menampilkan banner utama, motto, dan ajakan untuk bertindak.
+- **Nilai**: Memperkenalkan nilai-nilai utama (*Shalih*, *Muslih*, *Qudwah*).
+- **Profil Sekolah**: Sambutan dari kepala sekolah.
+- **Visi dan Misi**: Penjelasan mengenai visi dan misi sekolah.
+- **Informasi Sekolah**: Tautan cepat ke halaman Jurusan, Kehidupan Santri, Alumni, dan Kontak.
+- **Pendaftaran**: Tautan menuju situs resmi pendaftaran.
 
-### 2. Departments and Curriculum [`kurikulum.html`](kurikulum.html)
-- **Department Hero**: Introduction to the academic programs.
-- **Department List**: Outlines the academic focus for Science (IPA) and Social Studies (IPS) streams, along with subject lists.
-- **Student Count**: A dynamic table displaying student numbers for each department.
-- **Support Programs**: Explanations of supplementary programs and specific programs for Grade 12 students.
-- **Teaching Staff**: A list of teachers featuring an interactive search function built with JavaScript.
+### 2. Jurusan dan Kurikulum [`kurikulum.html`](kurikulum.html)
+- **Hero Jurusan**: Pengantar program akademik.
+- **Daftar Jurusan**: Menjelaskan fokus akademik jurusan IPA dan IPS beserta daftar mata pelajarannya.
+- **Jumlah Siswa**: Tabel yang menampilkan jumlah siswa pada setiap jurusan.
+- **Program Pendukung**: Penjelasan tentang program tambahan dan program khusus untuk siswa kelas 12.
+- **Tenaga Pendidik**: Daftar guru yang dilengkapi fitur pencarian interaktif menggunakan JavaScript.
 
-### 3. Student Life [`kesiswaan.html`](kesiswaan.html)
-- **Student Life Hero**: Introduction to student affairs programs.
-- **Guidance**: Explanations regarding character building and counseling services.
-- **Uniforms**: An interactive visual guide to uniforms, categorized by day (using JavaScript tabs).
-- **Extracurriculars**: A list of interactive extracurricular activities; details appear in a modal (dialog box) when clicked.
-- **OSPETA**: The student organization structure (OSPETA) for male and female students, including their respective working divisions.
+### 3. Kehidupan Santri [`kesiswaan.html`](kesiswaan.html)
+- **Hero Kehidupan Santri**: Pengantar program kesiswaan.
+- **Pembinaan**: Penjelasan tentang pembentukan karakter dan layanan bimbingan konseling.
+- **Seragam**: Panduan visual seragam interaktif yang dikelompokkan berdasarkan hari menggunakan tab JavaScript.
+- **Ekstrakurikuler**: Daftar kegiatan ekstrakurikuler interaktif; detail ditampilkan dalam modal (kotak dialog) saat dipilih.
+- **OSPETA**: Struktur organisasi santri OSPETA Ikhwan dan Akhwat, termasuk bidang kerja masing-masing.
 
 ### 4. Alumni [`alumni.html`](alumni.html)
-- **Alumni Hero**: Introduction to the alumni database search. 
-- **Alumni Data**: An alumni data search table integrated with JavaScript (enabling searches by name, year, and university, along with pagination).
-- **Alumni Stories**: A section showcasing alumni stories.
-- **Share a Story**: A form for submitting alumni stories.
+- **Hero Alumni**: Pengantar fitur pencarian data alumni.
+- **Data Alumni**: Tabel pencarian data alumni yang terintegrasi dengan JavaScript, sehingga data dapat dicari berdasarkan nama, tahun kelulusan, dan perguruan tinggi, serta ditampilkan dengan paginasi.
+- **Cerita Alumni**: Bagian untuk menampilkan cerita alumni.
+- **Berbagi Cerita**: Formulir untuk membagikan cerita alumni.
 
-### 5. Contact [`kontak.html`](kontak.html)
-- **Contact Hero**: Introduction to the contact page.
-- **Contact Information**: Full address, phone number, email, office hours, and a location map using a Google Maps iframe.
-- **Contact Form**: A message submission form linked to email services (opens the user's email client with the entered data).
-- **Social Media**: Official social media channels and the school's YouTube video gallery.
+### 5. Kontak [`kontak.html`](kontak.html)
+- **Hero Kontak**: Pengantar halaman kontak.
+- **Informasi Kontak**: Alamat lengkap, nomor telepon, email, jam layanan, dan peta lokasi melalui iframe Google Maps.
+- **Formulir Kontak**: Formulir pesan yang terhubung dengan layanan email dan membuka aplikasi email pengguna dengan data yang telah diisi.
+- **Media Sosial**: Kanal media sosial resmi dan galeri video YouTube sekolah.
 
-## Code Structure (CSS & JS)
+## Wireframe
+
+Wireframe visual berikut menunjukkan susunan utama setiap halaman pada desktop. Pada layar seluler, navigasi utama berubah menjadi menu; kolom dan kelompok kartu ditampilkan bertumpuk.
+
+### 1. Beranda
+
+![Wireframe halaman beranda](./assets/images/wireframes/beranda.svg)
+
+### 2. Jurusan dan Kurikulum
+
+![Wireframe halaman jurusan dan kurikulum](./assets/images/wireframes/jurusan.svg)
+
+### 3. Kehidupan Santri
+
+![Wireframe halaman kehidupan santri](./assets/images/wireframes/kehidupan-santri.svg)
+
+### 4. Alumni
+
+![Wireframe halaman alumni](./assets/images/wireframes/alumni.svg)
+
+### 5. Kontak
+
+![Wireframe halaman kontak](./assets/images/wireframes/kontak.svg)
+
+## Arsitektur Informasi
+
+```text
+Website SMAIT Al Kahfi
+|
++-- Header dan navigasi bersama
+|   +-- Beranda
+|   +-- Jurusan
+|   +-- Kehidupan Santri
+|   +-- Alumni
+|   +-- Kontak
+|   +-- Pendaftaran (situs PSB eksternal)
+|
++-- Beranda (index.html)
+|   +-- Hero dan nilai sekolah
+|   +-- Sambutan kepala sekolah
+|   +-- Visi dan misi
+|   +-- Tautan informasi sekolah
+|   +-- Pendaftaran santri baru
+|
++-- Jurusan dan Kurikulum (kurikulum.html)
+|   +-- Jurusan IPA dan IPS
+|   +-- Jumlah siswa
+|   +-- Program pendukung
+|   +-- Tenaga pendidik (pencarian)
+|
++-- Kehidupan Santri (kesiswaan.html)
+|   +-- Pembinaan dan konseling
+|   +-- Panduan seragam (tab hari)
+|   +-- Ekstrakurikuler (dialog detail)
+|   +-- Struktur OSPETA
+|
++-- Alumni (alumni.html)
+|   +-- Direktori (pencarian, filter, paginasi)
+|   +-- Detail profil (dialog)
+|   +-- Cerita alumni
+|   +-- Form cerita -> formulir resmi eksternal
+|
++-- Kontak (kontak.html)
+|   +-- Informasi kontak dan peta
+|   +-- Form kontak -> aplikasi email pengguna
+|   +-- Media sosial dan video YouTube
+|   +-- Pendaftaran santri baru
+|
++-- Footer bersama
+	+-- Alamat dan identitas sekolah
+	+-- Tautan halaman
+	+-- Telepon dan email
+```
+
+## Struktur Kode (CSS dan JavaScript)
 
 ### JavaScript (`assets/app.js`)
-The site features lightweight DOM interactions that do not require additional frameworks:
-- **Mobile Menu (`setMenu`)**: Toggles navigation on small-screen devices.
-- **Modal / Dialog (`openDialog`)**: Displays interactive modals for uniform details, extracurricular information, detailed alumni profiles, and alumni story previews.
-- **Tabs Interface**: An interactive tab system to display uniform details (Monday-Tuesday, Wednesday, Thursday, etc.).
-- **Live Search & Pagination**: Search functionality for staff (`teacher-search`) and alumni data (`alumni-search`), complete with filters and data pagination sourced from `assets/data/content.js`.
-- **Form Handling**: Intercepts submit events from `contact-form` and `alumni-story-form` to format messages and trigger `mailto:` actions or preview modals.
-- **Scroll Reveal (`IntersectionObserver`)**: Reveals elements with smooth animations as they enter the viewport.
+Situs ini menggunakan interaksi DOM yang ringan tanpa memerlukan framework tambahan:
+- **Menu Seluler (`setMenu`)**: Membuka dan menutup navigasi pada perangkat dengan layar kecil.
+- **Modal / Dialog (`openDialog`)**: Menampilkan dialog interaktif untuk detail seragam, informasi ekstrakurikuler, profil alumni, dan pratinjau cerita alumni.
+- **Antarmuka Tab**: Sistem tab interaktif untuk menampilkan detail seragam (Senin–Selasa, Rabu, Kamis, dan seterusnya).
+- **Pencarian Langsung dan Paginasi**: Fitur pencarian tenaga pendidik (`teacher-search`) dan data alumni (`alumni-search`), dilengkapi filter dan paginasi. Data bersumber dari `assets/data/content.js`.
+- **Penanganan Formulir**: Menangani peristiwa pengiriman pada `contact-form` dan `alumni-story-form` untuk menyiapkan pesan melalui `mailto:` atau menampilkan dialog pratinjau.
+- **Animasi Saat Gulir (`IntersectionObserver`)**: Menampilkan elemen dengan animasi halus saat elemen masuk ke area pandang.
 
 ### CSS (`assets/style.css`)
-- **Responsive Design**: Uses media queries to adjust layouts for mobile, tablet, and desktop devices.
-- **CSS Variables**: Defines tokens for colors (primary theme color `#1d503b`), typography (Outfit font), spacing, and animations to ensure site-wide consistency.
-- **UI Components**: Styling for navigation, buttons, cards, tables, input forms, tabs, dialogs (modals), and other utility components.
-- **Animations and Transitions**: Manages `hover` effects, `opacity` & `transform` transitions for scroll-based reveals, and modal interactions.
+- **Desain Responsif**: Menggunakan media query untuk menyesuaikan tata letak pada perangkat seluler, tablet, dan desktop.
+- **Variabel CSS**: Mendefinisikan token warna (warna utama tema `#1d503b`), tipografi (font Outfit), jarak, dan animasi agar tampilan konsisten di seluruh situs.
+- **Komponen UI**: Mengatur tampilan navigasi, tombol, kartu, tabel, formulir, tab, dialog (modal), dan komponen utilitas lainnya.
+- **Animasi dan Transisi**: Mengatur efek `hover`, transisi `opacity` dan `transform` untuk animasi saat gulir, serta interaksi modal.
 
-## Run / Preview
+## Preview
 
-The project is deployed at https://schoolweb-pweb.vercel.app/.
+https://schoolweb-pweb.vercel.app/.

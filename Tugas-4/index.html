@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#173451">
+	<meta name="description" content="Antarmuka pengelolaan data mahasiswa untuk tugas Pemrograman Web.">
+	<title>Data Mahasiswa | Sistem Akademik</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<a class="skip-link" href="#konten">Lewati ke konten utama</a>
+
+	<header class="topbar" id="beranda">
+		<a class="brand" href="#beranda" aria-label="Sistem Akademik, beranda">
+			<span class="brand-mark" aria-hidden="true">SA</span>
+			<span class="brand-copy">
+				<strong>Sistem Akademik</strong>
+				<span>MANAJEMEN MAHASISWA</span>
+			</span>
+		</a>
+
+		<nav class="main-nav" aria-label="Navigasi utama">
+			<a href="#beranda">Beranda</a>
+			<a class="is-current" href="#data-mahasiswa" aria-current="page">Mahasiswa</a>
+			<a href="#tentang">Tentang</a>
+		</nav>
+
+		<div class="account" aria-label="Akun pengelola">
+			<span class="account-avatar" aria-hidden="true">AD</span>
+			<span class="account-name">Admin</span>
+		</div>
+	</header>
+
+	<main class="page-shell" id="konten">
+		<section class="page-intro" aria-labelledby="page-title">
+			<div>
+				<p class="eyebrow">PORTAL AKADEMIK <span aria-hidden="true">/</span> DIREKTORI</p>
+				<h1 id="page-title">Data mahasiswa</h1>
+				<p class="intro-copy">Kelola informasi mahasiswa dalam satu tampilan yang ringkas.</p>
+			</div>
+			<p class="session-note"><span class="status-dot" aria-hidden="true"></span> Tahun akademik 2025/2026</p>
+		</section>
+
+		<div class="workspace" id="data-mahasiswa">
+			<section class="form-panel" aria-labelledby="form-title">
+				<div class="panel-heading">
+					<div>
+						<p class="section-kicker">FORMULIR</p>
+						<h2 id="form-title">Tambah mahasiswa</h2>
+					</div>
+					<span class="step-number" aria-hidden="true">01</span>
+				</div>
+
+				<form class="student-form">
+					<div class="field">
+						<label for="nim">NIM</label>
+						<input id="nim" name="nim" type="text" inputmode="numeric" autocomplete="off" placeholder="Contoh: 231001">
+					</div>
+
+					<div class="field">
+						<label for="nama">Nama lengkap</label>
+						<input id="nama" name="nama" type="text" autocomplete="name" placeholder="Masukkan nama mahasiswa">
+					</div>
+
+					<div class="field">
+						<label for="jurusan">Jurusan</label>
+						<select id="jurusan" name="jurusan">
+							<option value="" selected disabled>Pilih jurusan</option>
+							<option>Informatika</option>
+							<option>Sistem Informasi</option>
+							<option>Teknik Komputer</option>
+							<option>Manajemen</option>
+							<option>Akuntansi</option>
+						</select>
+					</div>
+
+					<div class="field">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="email" autocomplete="email" placeholder="nama@kampus.ac.id">
+					</div>
+
+					<div class="form-actions">
+						<button class="button button-primary" type="button">Simpan data</button>
+						<button class="button button-quiet" type="reset">Batal</button>
+					</div>
+					<button class="reset-link" type="reset">Kosongkan formulir</button>
+				</form>
+			</section>
+
+			<section class="data-panel" aria-labelledby="table-title">
+				<div class="data-heading">
+					<div>
+						<p class="section-kicker">DIREKTORI</p>
+						<h2 id="table-title">Daftar mahasiswa</h2>
+					</div>
+					<span class="record-count"><strong>05</strong> data</span>
+				</div>
+
+				<div class="table-toolbar">
+					<p class="table-caption">Data mahasiswa terdaftar</p>
+					<label class="search-box" for="search">
+						<span class="search-symbol" aria-hidden="true"></span>
+						<input id="search" type="search" placeholder="Cari nama atau NIM" aria-label="Cari nama atau NIM">
+					</label>
+				</div>
+
+				<div class="table-scroll" role="region" aria-label="Daftar mahasiswa, dapat digulir mendatar" tabindex="0">
+					<table>
+						<thead>
+							<tr>
+								<th scope="col">No.</th>
+								<th scope="col">NIM</th>
+								<th scope="col">Nama</th>
+								<th scope="col">Jurusan</th>
+								<th scope="col">Email</th>
+								<th scope="col">Aksi</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="row-number">01</td>
+								<td class="nim-cell">231001</td>
+								<td class="name-cell">Andi Pratama</td>
+								<td><span class="major-tag">Informatika</span></td>
+								<td><a class="email-link" href="mailto:andi@mail.com">andi@mail.com</a></td>
+								<td class="row-actions"><button type="button" class="action-button edit-button" aria-label="Edit data Andi Pratama">Edit</button><button type="button" class="action-button delete-button" aria-label="Hapus data Andi Pratama">Hapus</button></td>
+							</tr>
+							<tr>
+								<td class="row-number">02</td>
+								<td class="nim-cell">231002</td>
+								<td class="name-cell">Siti Aisyah</td>
+								<td><span class="major-tag">Sistem Informasi</span></td>
+								<td><a class="email-link" href="mailto:siti@mail.com">siti@mail.com</a></td>
+								<td class="row-actions"><button type="button" class="action-button edit-button" aria-label="Edit data Siti Aisyah">Edit</button><button type="button" class="action-button delete-button" aria-label="Hapus data Siti Aisyah">Hapus</button></td>
+							</tr>
+							<tr>
+								<td class="row-number">03</td>
+								<td class="nim-cell">231003</td>
+								<td class="name-cell">Budi Santoso</td>
+								<td><span class="major-tag">Teknik Komputer</span></td>
+								<td><a class="email-link" href="mailto:budi@mail.com">budi@mail.com</a></td>
+								<td class="row-actions"><button type="button" class="action-button edit-button" aria-label="Edit data Budi Santoso">Edit</button><button type="button" class="action-button delete-button" aria-label="Hapus data Budi Santoso">Hapus</button></td>
+							</tr>
+							<tr>
+								<td class="row-number">04</td>
+								<td class="nim-cell">231004</td>
+								<td class="name-cell">Nina Marlina</td>
+								<td><span class="major-tag">Manajemen</span></td>
+								<td><a class="email-link" href="mailto:nina@mail.com">nina@mail.com</a></td>
+								<td class="row-actions"><button type="button" class="action-button edit-button" aria-label="Edit data Nina Marlina">Edit</button><button type="button" class="action-button delete-button" aria-label="Hapus data Nina Marlina">Hapus</button></td>
+							</tr>
+							<tr>
+								<td class="row-number">05</td>
+								<td class="nim-cell">231005</td>
+								<td class="name-cell">Rizky Pratama</td>
+								<td><span class="major-tag">Informatika</span></td>
+								<td><a class="email-link" href="mailto:rizky@mail.com">rizky@mail.com</a></td>
+								<td class="row-actions"><button type="button" class="action-button edit-button" aria-label="Edit data Rizky Pratama">Edit</button><button type="button" class="action-button delete-button" aria-label="Hapus data Rizky Pratama">Hapus</button></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="table-footer">
+					<p>Menampilkan <strong>1–5</strong> dari <strong>15</strong> mahasiswa</p>
+					<nav class="pagination" aria-label="Pagination">
+						<button type="button" aria-label="Halaman sebelumnya" disabled>‹</button>
+						<button type="button" class="page-current" aria-current="page" aria-label="Halaman 1">1</button>
+						<button type="button" aria-label="Halaman 2">2</button>
+						<button type="button" aria-label="Halaman 3">3</button>
+						<button type="button" aria-label="Halaman berikutnya">›</button>
+					</nav>
+				</div>
+			</section>
+		</div>
+
+		<footer class="page-footer" id="tentang">
+			<span>SISTEM AKADEMIK <span aria-hidden="true">/</span> LAYANAN MAHASISWA</span>
+			<span>Antarmuka demonstrasi · 2026</span>
+		</footer>
+	</main>
+</body>
+</html>

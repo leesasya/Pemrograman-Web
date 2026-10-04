@@ -16,10 +16,12 @@ NRP. 5025251045</p>
 
 <br>
 
-| No | Task Name | Access Link |
+| No | Tugas | Link Repo Penugasan |
 |:---:|:---|:---:|
-| 01 | **1st Assignment: CV & Portofolio Website** | [View Directory](https://github.com/leesasya/Pemrograman-Web/tree/main/Tugas-1) |
-| 02 | **2st Assignment: School Website** | [View Directory](https://github.com/leesasya/Pemrograman-Web/tree/main/Tugas-2) |
+| 01 | **Tugas 1: Membuat Website CV dan Portofolio** | [View Directory](https://github.com/leesasya/Pemrograman-Web/tree/main/Tugas-1) |
+| 02 | **Tugas 2: Website Sekolah** | [View Directory](https://github.com/leesasya/Pemrograman-Web/tree/main/Tugas-2) |
+| 03 | **Tugas 3: Website PRD** | [View Directory](https://github.com/leesasya/Pemrograman-Web/tree/main/Tugas-3) |
+| 04 | **Tugas 4: Website PRD** | [View Directory](https://github.com/leesasya/Pemrograman-Web/tree/main/Tugas-3) |
 
 <br>
 
