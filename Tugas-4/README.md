@@ -6,7 +6,7 @@
 
 **Kelas: Pemrograman Web B**
 
-## Layout
+## Layout (Dokumentasi) 
 
 Halaman ini menampilkan formulir input mahasiswa dan tabel direktori dalam satu dashboard akademik yang responsif. Tampilannya terinspirasi dari referensi tugas, dengan penyesuaian warna dan tata letak.
 
