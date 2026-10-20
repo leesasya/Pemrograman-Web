@@ -37,14 +37,9 @@ Tugas-5/
     └── script.js
 ```
 
-## Cara menjalankan
+## Link Deployment
 
-1. Buka folder `Tugas-5` di editor.
-2. Buka [homepage](index.html) melalui browser atau gunakan Live Server.
-3. Klik tombol **Latihan 1**, **Latihan 2**, **Latihan 3**, atau **Latihan 4**.
-4. Untuk Latihan 2, pastikan koneksi internet tersedia karena data diambil dari API eksternal.
-
-Tidak diperlukan instalasi dependensi. Latihan 1, 3, dan 4 menggunakan data serta kode lokal. Form registrasi hanya melakukan validasi di browser; data tidak dikirim ke server atau disimpan ke database.
+https://webjs-pweb.vercel.app/
 
 ## Latihan 1 — Form registrasi dan rekomendasi nama
 
@@ -52,7 +47,7 @@ Tidak diperlukan instalasi dependensi. Latihan 1, 3, dan 4 menggunakan data sert
 
 Membuat form registrasi yang terdiri dari nama mahasiswa, NIM, mata kuliah, dan dosen. Ketika pengguna mengetik huruf tertentu pada nama, muncul rekomendasi nama yang sesuai.
 
-Halaman: [Latihan1/index.html](Latihan1/index.html).
+Halaman: [`Latihan 1`](./Latihan1).
 
 ### Implementasi HTML dan CSS
 
@@ -145,7 +140,7 @@ Form memakai `novalidate` agar validasi otomatis saat submit digantikan oleh pes
 
 Membuat pencarian kode pos dengan input provinsi, kabupaten/kota, dan kecamatan. Output berupa kode pos beserta informasi daerah.
 
-Halaman: [Latihan2/index.html](Latihan2/index.html).
+Halaman: [`Latihan 2`](./Latihan2).
 
 ### Implementasi HTML dan CSS
 
@@ -291,7 +286,7 @@ Kecepatan pemuatan bergantung pada jaringan dan respons API. Kode belum memiliki
 
 Membuat form registrasi dengan validasi email yang mengharuskan pola seperti `example@domain.com`.
 
-Halaman: [Latihan3/index.html](Latihan3/index.html).
+Halaman: [`Latihan 3`](./Latihan3).
 
 ### Implementasi HTML dan CSS
 
@@ -371,7 +366,7 @@ Tombol `type="reset"` mengembalikan nilai kontrol ke nilai awal melalui perilaku
 
 Membuat list dropdown yang isi pilihannya berubah secara dinamis berdasarkan pilihan sebelumnya. Implementasi menggunakan hubungan **Fakultas → Program Studi → Mata Kuliah**.
 
-Halaman: [Latihan4/index.html](Latihan4/index.html).
+Halaman: [`Latihan 4`](./Latihan4).
 
 ### Implementasi HTML dan CSS
 
