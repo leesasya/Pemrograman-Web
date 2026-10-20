@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Form registrasi mahasiswa dengan rekomendasi nama dan validasi data.">
+  <title>Registrasi Mahasiswa</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+      <form id="registration-form" novalidate>
+        <div class="field">
+          <label for="nama">Nama mahasiswa</label>
+          <input id="nama" name="nama" type="text" list="daftar-nama" autocomplete="off" placeholder="Ketik nama lengkap" required maxlength="100" aria-describedby="nama-error">
+          <datalist id="daftar-nama">
+            <option value="Aditya Pratama"></option><option value="Ahmad Fauzan"></option>
+            <option value="Aisyah Putri"></option><option value="Andi Saputra"></option>
+            <option value="Bima Arya"></option><option value="Citra Maharani"></option>
+            <option value="Dewi Lestari"></option><option value="Dimas Ramadhan"></option>
+            <option value="Farhan Akbar"></option><option value="Nadia Safitri"></option>
+            <option value="Nuris Akbar"></option><option value="Rizky Maulana"></option>
+            <option value="Siti Aulia"></option><option value="Zahra Nabila"></option>
+          </datalist>
+          <p class="error" id="nama-error" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="nim">NIM</label>
+          <input id="nim" name="nim" type="text" inputmode="numeric" placeholder="Masukkan nomor induk mahasiswa" required pattern="[0-9]+" maxlength="30" aria-describedby="nim-error">
+          <p class="error" id="nim-error" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="mata-kuliah">Mata kuliah</label>
+          <select id="mata-kuliah" name="mataKuliah" required aria-describedby="mata-kuliah-error">
+            <option value="">Pilih mata kuliah</option>
+            <option>Pemrograman Web</option><option>Jaringan Komputer</option><option>Sistem Basis Data</option><option>Struktur Data</option><option>Sistem Operasi</option>
+          </select>
+          <p class="error" id="mata-kuliah-error" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="dosen">Dosen pengampu</label>
+          <input id="dosen" name="dosen" type="text" placeholder="Masukkan nama dosen" required maxlength="100" aria-describedby="dosen-error">
+          <p class="error" id="dosen-error" aria-live="polite"></p>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+  </main>
+</body>
+</html>

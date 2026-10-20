@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pencarian Kode Pos Indonesia</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>Pencarian Kode Pos Indonesia</h1>
+
+    <form id="search-form">
+      <div class="field">
+        <label for="province">Provinsi</label>
+        <select id="province" name="province" required disabled>
+          <option value="">Memuat provinsi...</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="regency">Kabupaten/Kota</label>
+        <select id="regency" name="regency" required disabled>
+          <option value="">Pilih kabupaten/kota</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="district">Kecamatan</label>
+        <select id="district" name="district" required disabled>
+          <option value="">Pilih kecamatan</option>
+        </select>
+      </div>
+
+      <button id="search-button" type="submit" disabled>Cari</button>
+      <button id="retry-button" type="button" hidden>Coba lagi</button>
+      <p id="status" role="status" aria-live="polite"></p>
+      <noscript>Aktifkan JavaScript untuk mencari kode pos.</noscript>
+    </form>
+
+    <section id="results" aria-labelledby="results-title" hidden>
+      <h2 id="results-title">Hasil pencarian</h2>
+      <p id="region"></p>
+      <div class="table-wrapper">
+        <table>
+          <caption class="visually-hidden">Kode pos desa dan kelurahan di kecamatan terpilih</caption>
+          <thead>
+            <tr>
+              <th scope="col">Desa/Kelurahan</th>
+              <th scope="col">Kode pos</th>
+            </tr>
+          </thead>
+          <tbody id="result-list"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

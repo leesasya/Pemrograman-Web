@@ -1,0 +1,96 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f7f8fa;
+  color: #243746;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  width: min(440px, calc(100% - 32px));
+  margin: 48px auto;
+}
+
+form {
+  padding: 28px;
+  background: #fff;
+  border: 1px solid #dce1e6;
+  border-radius: 6px;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+input,
+select {
+  width: 100%;
+  min-height: 42px;
+  padding: 10px;
+  border: 1px solid #b8c2cc;
+  border-radius: 4px;
+  background: #fff;
+  color: inherit;
+  font: inherit;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #6c757d;
+}
+
+button {
+  min-height: 42px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 4px;
+  background: #205b87;
+  color: #fff;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #174568;
+}
+
+input:focus-visible,
+select:focus-visible,
+button:focus-visible {
+  outline: 3px solid #91bde0;
+  outline-offset: 2px;
+}
+
+[aria-invalid="true"] {
+  border-color: #b42318;
+}
+
+.error {
+  margin: 6px 0 0;
+  color: #b42318;
+  font-size: 12px;
+}
+
+.error:empty {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  main {
+    margin-block: 24px;
+  }
+
+  form {
+    padding: 20px;
+  }
+}

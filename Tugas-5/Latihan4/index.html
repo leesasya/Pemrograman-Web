@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List Dropdown Dinamis</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <form aria-label="Pilihan mata kuliah">
+      <div class="field">
+        <label for="fakultas">Fakultas</label>
+        <select id="fakultas" name="fakultas">
+          <option value="">Pilih fakultas</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="program-studi">Program studi</label>
+        <select id="program-studi" name="programStudi" disabled>
+          <option value="">Pilih program studi</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="mata-kuliah">Mata kuliah</label>
+        <select id="mata-kuliah" name="mataKuliah" disabled>
+          <option value="">Pilih mata kuliah</option>
+        </select>
+      </div>
+
+      <p id="hasil" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+</body>
+</html>
