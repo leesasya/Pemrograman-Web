@@ -9,14 +9,12 @@ let members = [];
 let staffLoggedIn = false;
 let notificationTimer;
 
-// Sesi simulasi dipakai saat berpindah antara beranda dan formulir.
 try {
   staffLoggedIn = sessionStorage.getItem("libraryreg.staff") === "true";
 } catch {
   staffLoggedIn = false;
 }
 
-// Data tetap tersedia setelah halaman dimuat ulang.
 try {
   const saved = JSON.parse(localStorage.getItem(storageKey) || "[]");
   if (

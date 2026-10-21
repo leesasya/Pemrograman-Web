@@ -1,0 +1,104 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Register</title>
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="register-page">
+    <main class="signup">
+      <h1>Please Sign Up <small>It's free and always will be.</small></h1>
+      <div class="signup-divider" aria-hidden="true"></div>
+
+      <form>
+        <div class="row signup-row">
+          <div class="col-6">
+            <input
+              class="form-control"
+              type="text"
+              name="firstName"
+              placeholder="First Name"
+              aria-label="First Name"
+              autocomplete="given-name"
+            />
+          </div>
+          <div class="col-6">
+            <input
+              class="form-control"
+              type="text"
+              name="lastName"
+              placeholder="Last Name"
+              aria-label="Last Name"
+              autocomplete="family-name"
+            />
+          </div>
+        </div>
+
+        <input
+          class="form-control signup-field"
+          type="text"
+          name="displayName"
+          placeholder="Display Name"
+          aria-label="Display Name"
+          autocomplete="nickname"
+        />
+        <input
+          class="form-control signup-field"
+          type="email"
+          name="email"
+          placeholder="Email Address"
+          aria-label="Email Address"
+          autocomplete="email"
+        />
+
+        <div class="row signup-row">
+          <div class="col-6">
+            <input
+              class="form-control"
+              type="password"
+              name="password"
+              placeholder="Password"
+              aria-label="Password"
+              autocomplete="new-password"
+            />
+          </div>
+          <div class="col-6">
+            <input
+              class="form-control"
+              type="password"
+              name="confirmation"
+              placeholder="Confirm Password"
+              aria-label="Confirm Password"
+              autocomplete="new-password"
+            />
+          </div>
+        </div>
+
+        <div class="signup-agreement">
+          <label class="agree-label" for="agree">
+            <input id="agree" name="agree" type="checkbox" /> I Agree
+          </label>
+          <p>
+            By clicking <strong>Register</strong>, you agree to the
+            <a href="#">Terms and Conditions</a> set out by this site, including
+            our Cookie Use.
+          </p>
+        </div>
+
+        <div class="signup-divider" aria-hidden="true"></div>
+        <div class="row signup-actions">
+          <div class="col-6">
+            <button class="btn btn-primary w-100" type="submit">
+              Register
+            </button>
+          </div>
+          <div class="col-6">
+            <a class="btn btn-success w-100" href="login.html">Sign In</a>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

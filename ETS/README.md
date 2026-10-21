@@ -12,11 +12,9 @@
 
 LibraryReg adalah aplikasi web pendaftaran anggota perpustakaan kampus. Pengunjung dapat melihat informasi perpustakaan dan mengisi formulir keanggotaan. Petugas dapat mencari, melihat, mengedit, dan menghapus data anggota melalui halaman admin.
 
-Aplikasi berfokus pada front end menggunakan HTML, CSS, JavaScript, dan Bootstrap. Data anggota disimpan sementara di localStorage, sedangkan status login simulasi disimpan di sessionStorage.
-
 ### Latar belakang
 
-Pendaftaran dengan formulir kertas menyebabkan antrean, kesalahan pencatatan, pencarian data yang sulit, dan keterlambatan pembuatan kartu anggota. LibraryReg menangani bagian pendaftaran dan pengelolaan datanya melalui antarmuka web.
+Pendaftaran dengan formulir kertas menyebabkan antrean, kesalahan pencatatan, pencarian data yang sulit, dan keterlambatan pembuatan kartu anggota. LibraryReg menangani bagian pendaftaran dan pengelolaan datanya melalui web.
 
 ### Tujuan
 
@@ -70,12 +68,6 @@ Data pada formulir:
 - Tabel dapat digeser mendatar pada layar kecil.
 - Animasi mengikuti pengaturan pengurangan gerakan pada perangkat.
 - Data anggota tetap tersedia pada browser dan perangkat yang sama setelah reload.
-
-### Batasan pekerjaan
-
-Aplikasi belum menggunakan backend atau database server. Login dan pembatasan halaman admin merupakan simulasi di sisi browser, bukan autentikasi sungguhan. Data tidak tersinkron antarperangkat.
-
-Pencarian buku menggunakan katalog contoh. Statistik, kontak, dan jam layanan bersifat ilustratif. Pengelolaan inventaris buku, transaksi peminjaman, serta pencetakan kartu anggota tidak termasuk pekerjaan ini.
 
 ### Kriteria keberhasilan
 
@@ -142,13 +134,11 @@ Pencarian buku menggunakan katalog contoh. Statistik, kontak, dan jam layanan be
 
 Urutan landing page: **header → hero dan pencarian → hasil pencarian jika ada → statistik → tentang dan fasilitas → layanan → footer**.
 
-Pada ponsel, navbar berubah menjadi menu lipat, bagian halaman disusun ke bawah, dan search bar menyesuaikan lebar layar. Formulir menjadi satu kolom, sedangkan tabel admin dapat digeser mendatar.
-
 ### Desain Figma
 
 **Tautan Figma:** https://www.figma.com/board/138r2ZT6IwafNFqhCOS8Rr/ETS-PWEB-LIBRARYREG-WIREFRAME?node-id=0-1&t=kTjbK98sX6KFXq2S-1.
 
-### Dokumentasi tampilan
+### Dokumentasi Wireframe
 
 **Landing page**
 
@@ -161,3 +151,43 @@ Pada ponsel, navbar berubah menjadi menu lipat, bagian halaman disusun ke bawah,
 **Database anggota**
 
 ![Panel anggota LibraryReg](./img/database.png)
+
+## 4. Implementasi & Deploy
+
+### File
+
+| File | Fungsi |
+| --- | --- |
+| [index.html](index.html) | Struktur landing page: navigasi, carousel, pencarian buku, statistik, informasi perpustakaan, layanan, dan dialog login petugas. |
+| [form.html](form.html) | Formulir pendaftaran dan edit anggota, termasuk pilihan program studi serta isian manual untuk pilihan Lainnya. |
+| [admin.html](admin.html) | Panel petugas untuk mencari anggota, melihat detail, mengedit, dan menghapus data. |
+| [style.css](style.css) | Warna, font, tata letak, tampilan responsif, dan animasi pada seluruh halaman. |
+| [script.js](script.js) | Validasi formulir, pencarian buku dan anggota, login simulasi, grafik interaktif, serta penyimpanan dan pengelolaan data anggota. |
+
+### Publish
+
+| Halaman | Tautan |
+| --- | --- |
+| Landing page | [Buka LibraryReg](https://libraryreg-pweb.vercel.app/) |
+| Formulir pendaftaran | [Buka formulir](https://libraryreg-pweb.vercel.app/form.html) |
+| Panel petugas | [Buka panel anggota](https://libraryreg-pweb.vercel.app/admin.html) |
+
+### Akun petugas simulasi
+
+| Username | Kata sandi |
+| --- | --- |
+| petugas | library123 |
+
+### Dokumentasi Website
+
+**Landing page**
+
+![Landing page LibraryReg](./img/web_lp.png)
+
+**Formulir pendaftaran**
+
+![Formulir anggota LibraryReg](./img/web_form.png)
+
+**Database anggota**
+
+![Panel anggota LibraryReg](./img/web_db.png)
