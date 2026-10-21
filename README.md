@@ -22,6 +22,9 @@ NRP. 5025251045</p>
 | 02 | **Tugas 2: Website Sekolah** | [View Directory](https://github.com/leesasya/Pemrograman-Web/tree/main/Tugas-2) |
 | 03 | **Tugas 3: Website PRD** | [View Directory](https://github.com/leesasya/Pemrograman-Web/tree/main/Tugas-3) |
 | 04 | **Tugas 4: Front-end CSS Form** | [View Directory](https://github.com/leesasya/Pemrograman-Web/tree/main/Tugas-4) |
+| 05 | **Tugas 5: Javascript Exercise** | [View Directory](https://github.com/leesasya/Pemrograman-Web/tree/main/Tugas-5) |
+| 06 | **Tugas 6: Bootstrap Exercise** | [View Directory](https://github.com/leesasya/Pemrograman-Web/tree/main/Tugas-6) |
+| 07 | **ETS: Website LibraryReg** | [View Directory](https://github.com/leesasya/Pemrograman-Web/tree/main/ETS) |
 
 <br>
 
