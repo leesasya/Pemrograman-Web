@@ -46,3 +46,9 @@ Alur pendaftaran: isi formulir → validasi → simpan ke localStorage → tampi
 - Layanan ditampilkan dalam satu panel utama dan dua bagian pendukung. 
 - Formulir memakai dua kolom pada desktop dan satu kolom pada ponsel. 
 - Tabel dapat digeser secara horizontal di layar kecil.
+
+### Dokumentasi
+
+![Landing Page Design](img/landing_page.png)
+![Form Design](img/form.png)
+![Dashboard Anggota Design](img/dashboard_anggota.png)
