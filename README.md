@@ -13,7 +13,7 @@ NRP. 5025251045</p>
 </a>
 
 </div>
-
+    Link Blog: https://khalisyazpr.blogspot.com/
 <br>
 
 | No | Tugas | Link Repo Penugasan |
