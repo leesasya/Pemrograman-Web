@@ -1,4 +1,4 @@
-﻿# Tugas 6 — Bootstrap
+﻿# Tugas 6 — Bootstrap Exercise
 
 **Nama:** Khalisya Zahra Putria Rahman  
 
