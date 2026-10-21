@@ -213,14 +213,25 @@ Website ini merupakan pengembangan dari materi Bootstrap menjadi antarmuka denga
 | File implementasi | Peran                                                                                |
 | ----------------- | ------------------------------------------------------------------------------------ |
 | `index.html`      | Halaman utama, sidebar, katalog kelas, FAQ, ajakan bergabung, dan modal detail kelas |
-| `2-login.html`      | Tampilan login untuk tema KelasKode                                                  |
-| `3-register.html`   | Tampilan registrasi untuk tema KelasKode                                             |
+| `login.html`      | Tampilan login untuk tema KelasKode                                                  |
+| `register.html`   | Tampilan registrasi untuk tema KelasKode                                             |
 | `style.css`       | Identitas visual, font, warna section, dan penyesuaian responsif                     |
 | `app.js`          | Logika filter kelas, pengisian modal, serta penanganan form implementasi             |
 
 Komponen yang diterapkan mencakup grid, navbar collapse, list group untuk filter, card katalog, accordion FAQ, modal, form control, dan feedback validasi. Pada halaman utama, header berada di atas, sidebar di kiri, konten di kanan, serta footer di bawah. Pada layar kecil, sidebar tersusun di atas konten.
 
 JavaScript pada folder implementasi merespons kategori melalui `data-filter`, menyembunyikan kartu yang tidak sesuai, dan memperbarui jumlah hasil. Penanganan modal memakai event Bootstrap `show.bs.modal`, sedangkan form implementasi memiliki penanganan validasi tersendiri. Fitur tersebut terpisah dari tiga halaman latihan di direktori utama yang berfokus pada reproduksi layout.
+
+### Dokumentasi tampilan
+
+- **Landing Page**
+![alt text](dokumentasi/kk_landingpage.png) 
+
+- **Login Page**
+![alt text](dokumentasi/kk_login.png) 
+
+- **Sign in Page**
+![alt text](dokumentasi/kk_signin.png)
 
 ## Referensi dan kredit
 

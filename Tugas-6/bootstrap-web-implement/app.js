@@ -1,4 +1,55 @@
 ﻿"use strict";
+const courses = [
+  {
+    title: "Bangun web pertamamu.",
+    description:
+      "Mulai dari struktur halaman hingga layout responsif yang siap tampil di semua layar.",
+    meta: "Pemula · 12 materi · 4 minggu",
+    syllabus: [
+      "Struktur dokumen HTML",
+      "Dasar CSS dan tipografi",
+      "Layout responsif",
+      "Membangun halaman web",
+    ],
+  },
+  {
+    title: "Bikin halamanmu hidup.",
+    description:
+      "Pelajari logika, interaksi, dan cara menghubungkan website dengan data.",
+    meta: "Pemula · 16 materi · 6 minggu",
+    syllabus: [
+      "Dasar JavaScript",
+      "Variabel, kondisi, dan perulangan",
+      "Interaksi dengan DOM",
+      "Mengolah data dari API",
+    ],
+  },
+  {
+    title: "Di balik sebuah aplikasi.",
+    description:
+      "Kenali server, database, dan API melalui proyek backend pertamamu.",
+    meta: "Menengah · 18 materi · 8 minggu",
+    syllabus: [
+      "Dasar server dan HTTP",
+      "Merancang API",
+      "Pengenalan database",
+      "Membangun layanan backend",
+    ],
+  },
+  {
+    title: "Langkah kecil, logika besar.",
+    description:
+      "Latih cara berpikir pemrograman dengan sintaks yang mudah diikuti.",
+    meta: "Pemula · 14 materi · 5 minggu",
+    syllabus: [
+      "Sintaks dan tipe data Python",
+      "Kondisi dan perulangan",
+      "Fungsi dan struktur data",
+      "Membuat program sederhana",
+    ],
+  },
+];
+
 const filterButtons = document.querySelectorAll("[data-filter]");
 const courseItems = document.querySelectorAll(".course-item");
 
